@@ -34,6 +34,9 @@ a, input, button, .button:hover, a:hover{
 	text-decoration: none;
 	color: #000;
 }
+.caps{
+	text-transform: uppercase;
+}
 body{
 	overflow-x: hidden;
 	letter-spacing: 0;
@@ -50,6 +53,40 @@ body{
 }
 header{
 	
+}
+.header-top{
+	background: #d0a382;
+	font-size: 16px;
+}
+.search{
+	height: 100%;
+	margin-left: 10px;
+}
+.header-top h5{
+	font-size: 14px;
+}
+.contacts{
+	height: 100%;
+}
+.contacts:before{
+	content: '';
+	display: flex;
+	height: 100%;
+	border-left: 0.5px solid #2b2024;
+	opacity: 0.5;
+	margin-right: 15px;
+}
+.contacts:after{
+	content: '';
+	display: flex;
+	height: 100%;
+	border-right: 0.5px solid #2b2024;
+	opacity: 0.5;
+	margin-left: 55%;
+}
+.menu{
+	height: 100%;
+	font-size: 18px;
 }
 .navigation{
 	z-index: 3;
