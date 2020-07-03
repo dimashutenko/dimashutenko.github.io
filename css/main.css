@@ -35,7 +35,7 @@ a, input, button, .button:hover, a:hover{
 	color: #000;
 }
 body{
-	overflow-x:hidden;
+	overflow-x: hidden;
 	letter-spacing: 0;
 	font-family: Ubuntu, sans-serif;
 	color: #000;
@@ -53,50 +53,9 @@ header{
 }
 .navigation{
 	z-index: 3;
-	cursor: default;
-	height: 80px;
+	height: 40px;
 }
-nav a.facebook, nav a.instagram, nav a.viber{
-	width: 42px;
-	height: 42px;
-	border-radius: 14px;
-	background: linear-gradient(135deg, rgba(42,137,205,1) 0%, rgba(42,170,221,1) 50%, rgba(37,217,241,1) 100%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 30px;
-	color: #000;
-	transition: all 0.05s ease-in-out;
-}
-nav a.instagram{
-	font-size: 34px;
-	margin-right: 20px;
-}
-nav a.viber:hover, a.instagram:hover, a.facebook:hover{
-	color: #fff;
-}
-nav a.facebook:hover{
-  	background: #3b579d;
-}
-nav a.instagram:hover{
-	background-size: 42px 42px;
-  	background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-}
-nav a:hover{
-	text-decoration: none;
-}
-nav a.viber{
-	margin-right: 20px;
-	margin-left: auto;
-	font-size: 34px;
-}
-nav a.viber:hover{
-  	background: #8d3abc;
-}
+
 
 footer{
 	margin-top: 55px;

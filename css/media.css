@@ -1,4 +1,88 @@
-@media (max-width: 1200px) {
+@media (min-width: 576px) {
+	.container{
+		max-width: 320px;
+	}
+	header .container{
+		max-width:100%;
+	}
+	footer h4{
+		order: 1;
+		width: 100%;
+		margin: 15px 0;
+	}
+	.company{
+		width: 40%;
+		order: 2;
+	}
+	.good-life{
+		width: 50%;
+		order: 3;
+	}
+}
+@media (min-width: 768px) {
+	.container, .go-section .container{
+		max-width: 570px;
+	}
+	
+	footer{
+		margin-top: 30px;
+	}
+	footer p{
+		font-size: 12px;
+	}
+	footer h4{
+		font-size: 18px;
+	}
+	.good-life::before{
+		height: 35px;
+		width: 25px;
+		background-size: 25px 25px;
+		margin-right: 4px;
+	}
+	.developer{
+		margin-bottom:10px;
+	}
+	.developer__link{
+		margin-left: 3px;
+	}
+	.developer__link i{
+		font-size: 14px;
+	}
+}
+@media (min-width: 992px) {
+	.container{
+		max-width: 760px;
+	}
+	
+	footer{
+		margin-top: 45px;
+	}
+	footer .row{
+		height: 70px;
+	}
+	footer p{
+		line-height: 40px;
+		font-size: 14px;
+	}
+	footer h4{
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.good-life::before{
+		height: 40px;
+		width: 30px;
+		background-size: 30px 30px;
+		margin-right: 7px;
+	}
+	.developer__link:hover{
+		color: #fff;
+		font-weight: 400;
+	}
+	.developer__link i{
+		font-size:16px;
+	}
+}
+@media (min-width: 1200px) {
 	.container{
 		max-width: 990px;
 	}
@@ -52,90 +136,5 @@
 	}
 	.developer__link i{
 		font-size:18px;
-	}
-}
-@media (max-width: 992px) {
-	.container{
-		max-width: 760px;
-	}
-	
-	footer{
-		margin-top: 45px;
-	}
-	footer .row{
-		height: 70px;
-	}
-	footer p{
-		line-height: 40px;
-		font-size: 14px;
-	}
-	footer h4{
-		font-size: 20px;
-		line-height: 35px;
-	}
-	.good-life::before{
-		height: 40px;
-		width: 30px;
-		background-size: 30px 30px;
-		margin-right: 7px;
-	}
-	.developer__link:hover{
-		color: #fff;
-		font-weight: 400;
-	}
-	.developer__link i{
-		font-size:16px;
-	}
-}
-@media (max-width: 768px) {
-	.container, .go-section .container{
-		max-width: 570px;
-	}
-	
-	footer{
-		margin-top: 30px;
-	}
-	footer p{
-		font-size: 12px;
-	}
-	footer h4{
-		font-size: 18px;
-	}
-	.good-life::before{
-		height: 35px;
-		width: 25px;
-		background-size: 25px 25px;
-		margin-right: 4px;
-	}
-	.developer{
-		margin-bottom:10px;
-	}
-	.developer__link{
-		margin-left: 3px;
-	}
-	.developer__link i{
-		font-size: 14px;
-	}
-}
-@media (max-width: 576px) {
-	.container{
-		max-width: 320px;
-	}
-	header .container{
-		max-width:100%;
-	}
-	
-	footer h4{
-		order: 1;
-		width: 100%;
-		margin: 15px 0;
-	}
-	.company{
-		width: 40%;
-		order: 2;
-	}
-	.good-life{
-		width: 50%;
-		order: 3;
 	}
 }
