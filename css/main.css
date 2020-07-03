@@ -87,7 +87,14 @@ header{
 	z-index: 3;
 	height: 40px;
 }
-
+.logo{
+	height: 80px;
+}
+#house-slider .boderless-container{
+	background: url(../img/1.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
 
 footer{
 	margin-top: 55px;
