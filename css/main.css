@@ -57,16 +57,19 @@ header{
 .header-top{
 	background: #d0a382;
 	font-size: 16px;
+	height: 40px;
 }
 .search{
 	height: 100%;
 	margin-left: 10px;
+	width: 75%;
 }
 .header-top h5{
 	font-size: 14px;
 }
 .contacts{
 	height: 100%;
+	width: 12.5%;
 }
 .contacts:before{
 	content: '';
@@ -74,7 +77,8 @@ header{
 	height: 100%;
 	border-left: 0.5px solid #2b2024;
 	opacity: 0.5;
-	margin-right: auto;
+	width: 0.5px;
+	margin: 0;
 }
 .contacts:after{
 	content: '';
@@ -82,11 +86,13 @@ header{
 	height: 100%;
 	border-right: 0.5px solid #2b2024;
 	opacity: 0.5;
-	margin-left: 60%;
+	width: 0.5px;
+	margin: 0;
 }
 .menu{
 	height: 100%;
 	font-size: 18px;
+	width: 12.5%;
 }
 .navigation{
 	z-index: 3;
