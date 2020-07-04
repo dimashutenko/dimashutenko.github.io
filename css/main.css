@@ -102,7 +102,7 @@ header{
 .section-title{
 	font-size: 24px;
 	margin-bottom: 10px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .ornament-center{
 	margin-bottom: 20px;
@@ -128,7 +128,7 @@ header{
 .service__image{
 	height: 35px;
 	width: 35px;
-	font-size: 26px;
+	font-size: 24px;
 	color: #fff;
 }
 .service__title{
