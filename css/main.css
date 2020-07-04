@@ -70,6 +70,7 @@ header{
 .contacts{
 	height: 100%;
 	width: 12.5%;
+	font-size: 18px;
 }
 .line{
 	height: 100%;
@@ -80,7 +81,7 @@ header{
 }
 .menu{
 	height: 100%;
-	font-size: 18px;
+	font-size: 20px;
 	width: 12.5%;
 }
 .navigation{
@@ -101,6 +102,7 @@ header{
 .section-title{
 	font-size: 24px;
 	margin-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .ornament-center{
 	margin-bottom: 20px;
@@ -143,14 +145,19 @@ header{
 	color: #555;
 }
 .service__btn{
-	padding: 5px 25px;
+	padding: 5px 20px;
 	border: 1px solid #a79991;
 	margin: 0 auto;
 	border-radius: 5px;
 	color: #555;
 	font-size: 15px;
 }
-
+.service__btn i{
+	margin-left: 5px;
+}
+#company{
+	background: #f0f0f0;
+}
 
 
 footer{
