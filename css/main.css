@@ -165,7 +165,7 @@ header{
 }
 .ornament-left{
 	margin-bottom: 10px;
-	background: url(../img/hr.png) no-repeat center center; 
+	background: url(../img/hr-left.png) no-repeat center center; 
 	background-size: cover;
 	width: 100%;
 	height: 30px;
