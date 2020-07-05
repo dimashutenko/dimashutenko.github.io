@@ -89,10 +89,11 @@ header{
 	height: 40px;
 }
 .logo{
-	height: 80px;
+	height: 150px;
+	background: url(../img/logo.png) no-repeat center center;
+	background-size: contain;
 }
 .section{
-	padding-top: 40px;
 }
 #houses-slider{
 	height: 500px;
