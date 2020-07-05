@@ -95,8 +95,6 @@ header{
 	padding-top: 40px;
 }
 #houses-slider{
-	background: url(../img/1.jpg) no-repeat center center;
-	background-size: cover;
 	height: 500px;
 }
 .section-title{
