@@ -10,14 +10,6 @@
 		width: 100%;
 		margin: 15px 0;
 	}
-	.company{
-		width: 40%;
-		order: 2;
-	}
-	.good-life{
-		width: 50%;
-		order: 3;
-	}
 }
 @media (min-width: 768px) {
 	.container, .go-section .container{
@@ -33,21 +25,6 @@
 	footer h4{
 		font-size: 18px;
 	}
-	.good-life::before{
-		height: 35px;
-		width: 25px;
-		background-size: 25px 25px;
-		margin-right: 4px;
-	}
-	.developer{
-		margin-bottom:10px;
-	}
-	.developer__link{
-		margin-left: 3px;
-	}
-	.developer__link i{
-		font-size: 14px;
-	}
 }
 @media (min-width: 992px) {
 	.container{
@@ -57,30 +34,7 @@
 	footer{
 		margin-top: 45px;
 	}
-	footer .row{
-		height: 70px;
-	}
-	footer p{
-		line-height: 40px;
-		font-size: 14px;
-	}
-	footer h4{
-		font-size: 20px;
-		line-height: 35px;
-	}
-	.good-life::before{
-		height: 40px;
-		width: 30px;
-		background-size: 30px 30px;
-		margin-right: 7px;
-	}
-	.developer__link:hover{
-		color: #fff;
-		font-weight: 400;
-	}
-	.developer__link i{
-		font-size:16px;
-	}
+	
 }
 @media (min-width: 1200px) {
 	.container{
@@ -89,30 +43,7 @@
 	header .container{
 		max-width:100%;
 	}
-	.go-section .container{
-		max-width:95%;
-	}
-	header .container .offer{
-		max-width: 990px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	nav a.viber, nav a.facebook, nav a.instagram{
-		width: 40px;
-		height: 40px;
-		border-radius: 13px;
-		font-size: 24px;
-	}
-	nav a.instagram:hover{
-		background-size: 40px 40px;
-	}
-	nav a.viber, nav a.instagram{
-		margin-right: 14px;
-		font-size: 32px;
-	}
-	nav a.instagram:hover{
-		background-size: 48px 48px;
-	}
+	
 	h1{
 		font-size: 62px;
 	}
@@ -120,21 +51,5 @@
 	footer{
 		margin-top: 50px;
 	}
-	footer p{
-		line-height: 45px;
-		font-size: 16px;
-	}
-	footer h4{
-		font-size: 22px;
-		line-height: 40px;
-	}
-	.good-life::before{
-		height: 45px;
-		width: 35px;
-		background-size: 35px 35px;
-		margin-right: 8px;
-	}
-	.developer__link i{
-		font-size:18px;
-	}
+	
 }

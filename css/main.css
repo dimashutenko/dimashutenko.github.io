@@ -97,6 +97,12 @@ header{
 #houses-slider{
 	height: 500px;
 }
+.slide{
+	display: none;
+}
+.active{
+	display: block;
+}
 .section-title{
 	font-size: 30px;
 	font-family: 'El Messiri', sans-serif;
