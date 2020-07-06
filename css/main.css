@@ -63,6 +63,7 @@ header{
 	height: 100%;
 	margin: 0px 50px 0px 10px;
 	width: 75%;
+	cursor: pointer;
 }
 .header-top h5{
 	font-size: 14px;
@@ -71,6 +72,7 @@ header{
 	height: 100%;
 	width: 12.5%;
 	font-size: 18px;
+	cursor: pointer;
 }
 .line{
 	height: 100%;
