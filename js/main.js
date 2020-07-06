@@ -1,9 +1,11 @@
 $(document).ready( function() {
 
+    const btn_prev =$('#btn-prev');
+    const btn_next =$('#btn-next');
 
 
 
-    
+
 
     if($(window).width() < 960)
     {
