@@ -16,9 +16,12 @@ const btn_prev = $('#btn-prev'),
         if(index == slides.length - 1){
             index = 0;
             activeSlide(index);
+            slides[index].style.animation = "slide-to-left 0.5s";
         } else {
+            var variable = index;
             index++;
             activeSlide(index);
+            $(".active")[0].style.animation = "slide-to-left 0.5s";
         }
     }
 
@@ -26,9 +29,11 @@ const btn_prev = $('#btn-prev'),
         if(index == 0){
             index = slides.length - 1;
             activeSlide(index);
+            slides[index].style.animation = "slide-to-right 0.5s";
         } else {
             index--;
             activeSlide(index);
+            $(".active")[0].style.animation = "slide-to-right 0.5s";
         }
     }
 

@@ -109,9 +109,27 @@ header{
 	z-index: 1;
 	background-size: cover;
 	position: relative;
+	transition: all 0.5s ease-in-out;
+}
+@keyframes slide-to-right{
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+@keyframes slide-to-left{
+	from{
+		transform: translateX(100%);
+	}
+	to{
+		transform: translateX(0);
+	}
 }
 .active{
 	display: block;
+	opacity: 1;
 }
 #slide-1{
 	background: url(../img/1.jpg) no-repeat center center;
