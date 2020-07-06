@@ -103,12 +103,25 @@ header{
 	display: none;
 	height: 100%;
 	z-index: 1;
+	background-size: cover;
 }
 .active{
 	display: block;
 }
-.slide-img{
-	height: 100%;
+#slide-1{
+	background: url(../img/1.jpg) no-repeat center center;
+}
+#slide-2{
+	background: url(../img/2.jpg) no-repeat center center;
+}
+#slide-3{
+	background: url(../img/3.jpg) no-repeat center center;
+}
+#slide-4{
+	background: url(../img/4.jpg) no-repeat center center;
+}
+#slide-5{
+	background: url(../img/5.jpg) no-repeat center center;
 }
 #btn-prev, #btn-next{
 	position: absolute;
@@ -130,6 +143,9 @@ header{
 	font-size: 32px;
 	color: #fff;
 	opacity: 0.9;
+}
+#services{
+	margin-top: 40px;
 }
 .section-title{
 	font-size: 30px;

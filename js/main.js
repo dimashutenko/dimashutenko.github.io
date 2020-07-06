@@ -1,6 +1,4 @@
-$(document).ready( function() {
-
-    const btn_prev = $('#btn-prev'),
+const btn_prev = $('#btn-prev'),
     btn_next = $('#btn-next'),
     slides = document.querySelectorAll('.slide'),
     slides_wrapper = $('.slider-wrapper');
@@ -14,7 +12,7 @@ $(document).ready( function() {
         slides[n].classList.add('active');
     }
 
-    const nextSlide = () => {
+    function nextSlide() {
         if(index == slides.length - 1){
             index = 0;
             activeSlide(index);
@@ -24,7 +22,22 @@ $(document).ready( function() {
         }
     }
 
-    btn_next.addEventListener('click', nextSlide);
+    function prevSlide() {
+        if(index == 0){
+            index = slides.length - 1;
+            activeSlide(index);
+        } else {
+            index--;
+            activeSlide(index);
+        }
+    }
+
+
+$(document).ready( function() {
+
+    
+
+    // btn_next.addEventListener('click', nextSlide);
 
 
 
