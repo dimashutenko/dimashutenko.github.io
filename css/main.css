@@ -104,6 +104,7 @@ header{
 	height: 100%;
 	z-index: 1;
 	background-size: cover;
+	position: relative;
 }
 .active{
 	display: block;
@@ -123,21 +124,40 @@ header{
 #slide-5{
 	background: url(../img/5.jpg) no-repeat center center;
 }
+.slide__content{
+	position: absolute;
+	top: 85%;
+	left: 15%;
+	width: 70%;
+	background: rgba(0,0,0, 0.3);
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+}
+.dollars{
+	font-size: 16px;
+}
 #btn-prev, #btn-next{
 	position: absolute;
 	z-index: 2;
 	height: 10%;
 	width: 10%;
 	top: calc(50% - 10%);
-	background: rgba(0,0,0, 0.3);
+	background: #000;
+	opacity: 0.3;
 	text-align: center;
 	padding: 10px;
+	transition: opacity .2s ease-in-out;
 }
 #btn-prev{
 	left: 0;
 }
 #btn-next{
 	right: 0;
+}
+#btn-prev:hover, #btn-next:hover {
+    opacity: 0.6;
 }
 #btn-prev i, #btn-next i{
 	font-size: 32px;
