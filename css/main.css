@@ -158,8 +158,8 @@ a.menu-extended__item-txt{
 	right: 4%;
 }
 #close-menu{
-	position: fixed;
-	top: 7%;
+	position: absolute;
+	top: 17px;
 	right: 4%;
 	font-size: 18px;
 }
@@ -206,6 +206,16 @@ a.menu-extended__item-txt{
 }
 .section{
 }
+
+#search{
+	display: none;
+	font-size: 16px;
+}
+
+
+
+
+
 #houses-slider{
 	height: 500px;
 	position: relative;

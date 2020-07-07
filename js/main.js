@@ -39,6 +39,17 @@ const btn_prev = $('#btn-prev'),
 
 
 
+function search_clicked() {  // ?
+    alert('В разработке');
+    if(document.querySelectorAll('#search')[0].style.display='none')
+    {
+        document.querySelectorAll('#search')[0].style.display='block';
+    } else {
+        document.querySelectorAll('#search')[0].style.display='none';
+    }
+    
+}
+
 function contacts_clicked() {
     document.querySelectorAll('.contacts')[0].classList.toggle('contacts-clicked');
     document.querySelectorAll('.contacts-extended')[0].classList.toggle('block');
