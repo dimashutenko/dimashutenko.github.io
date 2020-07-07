@@ -79,16 +79,19 @@ $(document).ready( function() {
 
 	}else{ //more tham 960px
 
-		$(window).scroll(function() {
-    	    $('.').each(function(){
-    	        var imagePos = $(this).offset().top;
+        $('body').style.display='none';
+        alert('in development');
+
+		// $(window).scroll(function() {
+  //   	    $('.').each(function(){
+  //   	        var imagePos = $(this).offset().top;
 	
-    	        var topOfWindow = $(window).scrollTop();
-    	        if (imagePos < topOfWindow+500) {
-    	            $(this).addClass("fadeIn");
-    	        }
-    	    });
-    	});
+  //   	        var topOfWindow = $(window).scrollTop();
+  //   	        if (imagePos < topOfWindow+500) {
+  //   	            $(this).addClass("fadeIn");
+  //   	        }
+  //   	    });
+  //   	});
     	
 	}
 
