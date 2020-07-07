@@ -24,12 +24,12 @@ const btn_prev = $('#btn-prev'),
         if(index == slides.length - 1){
             index = 0;
             activeSlide(index);
-            slides[index].style.animation = "slide-to-left 0.7s";
+            slides[index].style.animation = "myFadeIn 0.7s";
         } else {
             var variable = index;
             index++;
             activeSlide(index);
-            $(".active")[0].style.animation = "slide-to-left 0.7s";
+            $(".active")[0].style.animation = "myFadeIn 0.7s";
         }
     }
 
@@ -37,13 +37,30 @@ const btn_prev = $('#btn-prev'),
         if(index == 0){
             index = slides.length - 1;
             activeSlide(index);
-            slides[index].style.animation = "slide-to-right 0.7s";
+            slides[index].style.animation = "myFadeIn 0.7s";
         } else {
             index--;
             activeSlide(index);
-            $(".active")[0].style.animation = "slide-to-right 0.7s";
+            $(".active")[0].style.animation = "myFadeIn 0.7s";
         }
     }
+
+
+
+function contacts_clicked() {
+    document.querySelectorAll('.contacts')[0].classList.toggle('contacts-clicked');
+    document.querySelectorAll('.contacts-extended')[0].classList.toggle('block');
+    // if( $('.contacts-extended').style.display='none' ){
+    //     $('.contacts-extended').style.display='block';
+    // } else {
+    //      $('.contacts-extended').style.display='none';
+    // }
+    
+}
+
+
+
+
 
 
 $(document).ready( function() {

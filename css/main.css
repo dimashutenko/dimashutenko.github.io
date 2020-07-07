@@ -54,10 +54,11 @@ body{
 header{
 	
 }
-.header-top{
+nav.header-top{
 	background: #d0a382;
 	font-size: 16px;
 	height: 40px;
+	position: relative;
 }
 .search{
 	height: 100%;
@@ -73,6 +74,7 @@ header{
 	width: 12.5%;
 	font-size: 18px;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 .line{
 	height: 100%;
@@ -87,10 +89,51 @@ header{
 	width: 12.5%;
 	cursor: pointer;
 }
-.navigation{
-	z-index: 3;
-	height: 40px;
+.contacts-extended{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	font-size: 18px;
+	flex-flow: row wrap;
+	background: #333;
+	padding-top: 10px;
+	color: #fff;
 }
+.contacts-extended p{
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+p.phone-number{
+	color: #c1aa64;
+	font-size: 22px;
+}
+.contacts-clicked{
+	background: #333;
+	color: #fff;
+}
+.block{
+	display: block;
+	animation: myFadeIn 0.3s;
+}
+@keyframes myFadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#close-contacts{
+	position: absolute;
+	top: 15%;
+	right: 4%;
+}
+
 .logo{
 	height: 150px;
 	background: url(../img/logo.png) no-repeat center center;
@@ -111,25 +154,8 @@ header{
 	position: relative;
 	transition: all 0.7s ease-in-out;
 }
-@keyframes slide-to-right{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-}
-@keyframes slide-to-left{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-}
 .active{
 	display: block;
-	opacity: 1;
 }
 #slide-1{
 	background: url(../img/1.jpg) no-repeat center center;
