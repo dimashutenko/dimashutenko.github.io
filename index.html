@@ -37,7 +37,7 @@
 					<i class="fas fa-phone"></i>
 				</div>
 				<div class="line d-flex"></div>
-				<div class="menu d-flex justify-content-center align-items-center">
+				<div class="menu d-flex justify-content-center align-items-center" onclick="menu_clicked()">
 					<i class="fas fa-bars"></i>
 				</div>
 				<div class="contacts-extended">
@@ -48,6 +48,51 @@
 						+380682019393
 					</p>
 					<i class="fa fa-close" id="close-contacts" onclick="contacts_clicked()"></i>
+				</div>
+				<ul class="menu-extended">
+					<li class="menu-extended__item">
+						<a href="index.html" class="menu-extended__item-txt">
+							главная
+						</a>
+					</li>
+					<li class="menu-extended__item">
+						<a href="#" class="menu-extended__item-txt">
+							о компании
+						</a>
+					</li>
+					<li class="menu-extended__item">
+						<a href="#" class="menu-extended__item-txt">
+							услуги
+						</a>
+						<ul class="services-menu">
+							<li class="services-menu__item">
+								<a href="#" class="services-menu__item-txt">
+									Услуги Покупателю
+								</a>
+							</li>
+							<li class="services-menu__item">
+								<a href="#" class="services-menu__item-txt">
+									УСЛУГИ ВЛАДЕЛЬЦУ
+								</a>
+							</li>
+							<li class="services-menu__item">
+								<a href="#" class="services-menu__item-txt">
+									ЭЛИТНАЯ НЕДВИЖИМОСТЬ
+								</a>
+							</li>
+							<li class="services-menu__item">
+								<a href="#" class="services-menu__item-txt">
+									БЕСПЛАТНЫЕ КОНСУЛЬТАЦИИ
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-extended__item" id="menu-extended__item-last">
+						<a href="index.html" class="menu-extended__item-txt">
+							контакты
+						</a>
+					</li>
+					<i class="fa fa-close" id="close-menu" onclick="menu_clicked()"></i>
 				</div>
 			</nav>
 			<div class="logo d-flex justify-content-center align-items-center">

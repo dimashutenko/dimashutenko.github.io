@@ -101,6 +101,7 @@ nav.header-top{
 	background: #333;
 	padding-top: 10px;
 	color: #fff;
+	z-index: 4;
 }
 .contacts-extended p{
 	display: block;
@@ -114,6 +115,33 @@ p.phone-number{
 }
 .contacts-clicked{
 	background: #333;
+	color: #fff;
+}
+.menu-clicked{
+	background: #333;
+	color: #fff;
+}
+.menu-extended{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	font-size: 16px;
+	flex-flow: row wrap;
+	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+	z-index: 3;
+}
+.menu-extended__item{
+	padding: 15px;
+	border-bottom: 1px solid #d0a382;
+}
+#menu-extended__item-last{
+	border-bottom: none;
+}
+.menu-extended__item-txt{
 	color: #fff;
 }
 .block{
@@ -133,7 +161,15 @@ p.phone-number{
 	top: 18%;
 	right: 4%;
 }
-
+#close-menu{
+	position: absolute;
+	top: 8%;
+	right: 4%;
+	font-size: 18px;
+}
+.services-menu{
+	display: none;
+}
 .logo{
 	height: 150px;
 	background: url(../img/logo.png) no-repeat center center;

@@ -5,14 +5,6 @@ const btn_prev = $('#btn-prev'),
 
     let index=0;
 
-    function wait(ms){
-       var start = new Date().getTime();
-       var end = start;
-       while(end < start + ms) {
-         end = new Date().getTime();
-      }
-    }
-
     const activeSlide = n => {
         for (slide of slides){
             slide.classList.remove('active');
@@ -50,12 +42,11 @@ const btn_prev = $('#btn-prev'),
 function contacts_clicked() {
     document.querySelectorAll('.contacts')[0].classList.toggle('contacts-clicked');
     document.querySelectorAll('.contacts-extended')[0].classList.toggle('block');
-    // if( $('.contacts-extended').style.display='none' ){
-    //     $('.contacts-extended').style.display='block';
-    // } else {
-    //      $('.contacts-extended').style.display='none';
-    // }
-    
+}
+
+function menu_clicked() {
+    document.querySelectorAll('.menu')[0].classList.toggle('menu-clicked');
+    document.querySelectorAll('.menu-extended')[0].classList.toggle('block');
 }
 
 
