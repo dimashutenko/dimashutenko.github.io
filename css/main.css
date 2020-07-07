@@ -141,12 +141,8 @@ p.phone-number{
 #menu-extended__item-last{
 	border-bottom: none;
 }
-.menu-extended__item-txt{
+a.menu-extended__item-txt{
 	color: #fff;
-}
-.block{
-	display: block;
-	animation: myFadeIn 0.3s;
 }
 @keyframes myFadeIn{
 	from{
@@ -162,17 +158,45 @@ p.phone-number{
 	right: 4%;
 }
 #close-menu{
-	position: absolute;
-	top: 8%;
+	position: fixed;
+	top: 7%;
 	right: 4%;
 	font-size: 18px;
-}
-.services-menu{
-	display: none;
 }
 #services-down{
 	margin-left: 2px;
 	font-weight: 600;
+}
+.services-menu{
+	display: none;
+	width: 100%;
+	font-size: 15px;
+	flex-flow: row wrap;
+	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+	z-index: 3;
+}
+.services-menu__item{
+	padding: 10px 0px;
+	border-bottom: 1px solid #d0a382;
+}
+#services-menu__item-last{
+	border: none;
+}
+.services-clicked{
+	padding: 15px 0px 0px 15px;
+}
+.services-clicked a#services-opener{
+	color: #d0a382;
+}
+.services-clicked a{
+	background: #333;
+	color: #fff;
+}
+.block{
+	display: block;
+	animation: myFadeIn 0.3s;
 }
 .logo{
 	height: 150px;

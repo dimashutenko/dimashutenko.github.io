@@ -49,6 +49,11 @@ function menu_clicked() {
     document.querySelectorAll('.menu-extended')[0].classList.toggle('block');
 }
 
+function services_clicked() {
+    document.querySelectorAll('#services-menu')[0].classList.toggle('services-clicked');
+    document.querySelectorAll('.services-menu')[0].classList.toggle('block');
+}
+
 
 
 
