@@ -5,6 +5,14 @@ const btn_prev = $('#btn-prev'),
 
     let index=0;
 
+    function wait(ms){
+       var start = new Date().getTime();
+       var end = start;
+       while(end < start + ms) {
+         end = new Date().getTime();
+      }
+    }
+
     const activeSlide = n => {
         for (slide of slides){
             slide.classList.remove('active');
@@ -16,12 +24,12 @@ const btn_prev = $('#btn-prev'),
         if(index == slides.length - 1){
             index = 0;
             activeSlide(index);
-            slides[index].style.animation = "slide-to-left 0.5s";
+            slides[index].style.animation = "slide-to-left 0.7s";
         } else {
             var variable = index;
             index++;
             activeSlide(index);
-            $(".active")[0].style.animation = "slide-to-left 0.5s";
+            $(".active")[0].style.animation = "slide-to-left 0.7s";
         }
     }
 
@@ -29,11 +37,11 @@ const btn_prev = $('#btn-prev'),
         if(index == 0){
             index = slides.length - 1;
             activeSlide(index);
-            slides[index].style.animation = "slide-to-right 0.5s";
+            slides[index].style.animation = "slide-to-right 0.7s";
         } else {
             index--;
             activeSlide(index);
-            $(".active")[0].style.animation = "slide-to-right 0.5s";
+            $(".active")[0].style.animation = "slide-to-right 0.7s";
         }
     }
 
