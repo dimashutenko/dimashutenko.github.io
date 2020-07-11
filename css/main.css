@@ -349,7 +349,8 @@ a.menu-extended__item-txt{
 	margin-left: 5px;
 	color: #ca8255;
 }
-#company{
+#why-choose-us{
+	padding: 70px 0;
 	background: #f0f0f0;
 }
 .lead {
@@ -444,64 +445,17 @@ h2.page-header {
 #about img.chief-photo {
     display: none;
 }
+#about .sign h2 small {
+    display: block;
+}
 #about .sign h2 {
-    float: left;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+    padding: 20px 0;
+}
+#about .content {
+    padding-bottom: 50px;
 }
 
 
 
-
-
-footer{
-	margin-top: 55px;
-	background: #100e17;
-	color: #fff;
-	box-shadow: 0px -10px 35px rgba(14,11,27,1);
-}
-footer .row{
-	height: 70px;
-	margin: 0;
-}
-footer p{
-	margin-bottom: 0;
-	display: flex;
-	line-height: 50px;
-	font-size: 18px;
-}
-footer h4{
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 45px;
-}
-.company, .good-life{
-	width: 33%;
-}
-.good-life{
-	justify-content: flex-end;
-}
-.good-life::before{
-	display: flex;
-	content: '';
-	height: 50px;
-	width: 40px;
-	background: url(../img/live-long.png) center center no-repeat;
-	background-size: 40px 40px;
-	margin-right: 10px;
-}
-.developer{
-	line-height: 20px;
-	margin: 20px 0;
-}
-.developer__link{
-	color: #fff;
-	margin-left: 5px;
-	transition: all 0.3s ease-in-out;
-}
-.developer__link:hover{
-	color: #ffc331;
-	text-decoration:none;
-}
-.developer__link i{
-	margin-left: 4px;
-	font-size:20px;
-}
