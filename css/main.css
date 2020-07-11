@@ -357,6 +357,16 @@ a.menu-extended__item-txt{
     font-size: 22px;
     line-height: 1.4;
     color: #333;
+    font-weight: 400;
+}
+.characteristics__item{
+	padding: 0 0 10px 0;
+    font-size: 18px;
+    #ca8255
+}
+.characteristics__item i{
+	color: #ca8255;
+	padding-right: 5px;
 }
 
 footer{
