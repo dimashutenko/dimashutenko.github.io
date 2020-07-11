@@ -11,7 +11,6 @@ h1,h2,h3,h4,h5{
 	margin:0;
 }
 ul {
-	margin: 0;
 	padding: 0;
 }
 ul li{
@@ -367,6 +366,18 @@ a.menu-extended__item-txt{
 .characteristics__item i{
 	color: #ca8255;
 	padding-right: 5px;
+}
+.btn-primary {
+    background: none;
+    border: 2px solid #ca8255;
+    border-radius: 30px;
+    color: #555;
+    padding: 10px 20px;
+}
+.btn-primary i {
+    color: #ca8255;
+    margin-left: 8px;
+    font-size: 16px;
 }
 
 footer{
