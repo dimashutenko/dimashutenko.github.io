@@ -5,26 +5,17 @@
 	header .container{
 		max-width:100%;
 	}
-	footer h4{
-		order: 1;
-		width: 100%;
-		margin: 15px 0;
+	#page-head {
+	    background-attachment: scroll;
 	}
+
 }
 @media (min-width: 768px) {
 	.container, .go-section .container{
 		max-width: 570px;
 	}
 	
-	footer{
-		margin-top: 30px;
-	}
-	footer p{
-		font-size: 12px;
-	}
-	footer h4{
-		font-size: 18px;
-	}
+
 }
 @media (min-width: 992px) {
 	.container{
@@ -48,8 +39,6 @@
 		font-size: 62px;
 	}
 	
-	footer{
-		margin-top: 50px;
-	}
+
 	
 }

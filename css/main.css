@@ -383,6 +383,7 @@ a.menu-extended__item-txt{
     background-color: #000;
     background: url(../img/page-head.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: scroll;
 }
 #page-head .overlay {
     padding: 65px 0 60px 0;
