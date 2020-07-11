@@ -6,7 +6,7 @@
 		max-width:100%;
 	}
 	#page-head {
-	    background-attachment: scroll;
+	    background-attachment: fixed;
 	}
 
 }
@@ -21,7 +21,14 @@
 	.container{
 		max-width: 760px;
 	}
-	
+	#about img.chief-photo {
+    	display: block;
+	}
+	#about .sign h2 {
+    	font-family: "El Messiri", sans-serif;
+    	font-weight: 500;
+    	padding: 20px 0;
+	}
 	footer{
 		margin-top: 45px;
 	}

@@ -428,6 +428,28 @@ a.menu-extended__item-txt{
 #page-head .breadcrumb a {
     color: #fff;
 }
+#about {
+    padding: 70px 0 0 0;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+h2.page-header {
+    font-family: 'El Messiri', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#about img.chief-photo {
+    display: none;
+}
+#about .sign h2 {
+    float: left;
+}
+
+
+
 
 
 footer{
