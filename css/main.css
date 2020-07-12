@@ -430,7 +430,7 @@ a.menu-extended__item-txt{
     color: #fff;
 }
 #about {
-    padding: 70px 0 0 0;
+    padding: 20px 0 0 0;
 }
 h2 {
     font-size: 30px;
@@ -481,6 +481,16 @@ h2.page-header {
     background: rgba(51, 51, 51, 0.6);
     transition: all .4s ease;
     width: 100%;
+}
+#what-we-do li:hover div.block-in {
+    position: absolute;
+    top: 0;
+    background: #b7a66d;
+    height: inherit;
+}
+
+#what-we-do li:hover h4 {
+    background: rgba(0, 0, 0, .08);
 }
 #what-we-do .what-we-do-list h4, .what-we-do-list p {
     color: #fff;
