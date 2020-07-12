@@ -45,9 +45,6 @@ body{
     line-height: 1.5;
     color: #555;
 }
-.container{
-	margin: 0 15px;
-}
 .borderless-container{
 	margin: 0px;
 	display: flex;
