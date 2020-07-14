@@ -532,19 +532,28 @@ h4 {
 #contacts .circle {
     width: 80px;
     height: 80px;
-    display: block;
     border-radius: 100%;
     font-size: 30px;
-    color: #b7a66d;
+    color: #ca8255;
     line-height: 80px;
     text-align: center;
     background: #f0f0f0;
-    float: left;
     margin: 0 0 40px 0;
+    float: left;
 }
-
+#contacts .content {
+    position: absolute;
+    height: 80px;
+    left: 120px;
+}
+#contacts h4 {
+    margin-bottom: 10px;
+}
 #contacts .valign {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+#contacts a {
+    color: #ca8255;
 }
