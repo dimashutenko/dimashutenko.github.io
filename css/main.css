@@ -56,11 +56,11 @@ header{
 	
 }
 nav.header-top{
-	background: #d0a382;
+	background: #13333e;
 	font-size: 16px;
 	height: 40px;
 	position: relative;
-	color: #000;
+	color: #ddc5b9;
 }
 .search{
 	height: 100%;
@@ -70,7 +70,7 @@ nav.header-top{
 }
 .header-top h5{
 	font-size: 14px;
-	color: #000;
+	color: #ddc5b9;
 	font-weight: 500;
 }
 .contacts{
@@ -114,7 +114,7 @@ nav.header-top{
 	margin-bottom: 10px;
 }
 p.phone-number{
-	color: #c1aa64;
+	color: #ddc5b9;
 	font-size: 22px;
 }
 .contacts-clicked{
@@ -140,7 +140,7 @@ p.phone-number{
 }
 .menu-extended__item{
 	padding: 15px;
-	border-bottom: 1px solid #d0a382;
+	border-bottom: 1px solid #e8d9d2;
 }
 #menu-extended__item-last{
 	border-bottom: none;
@@ -204,7 +204,7 @@ a.menu-extended__item-txt{
 }
 .logo{
 	height: 150px;
-	background: url(../img/logo.png) no-repeat center center;
+	/*background: url(../img/logo.png) no-repeat center center;*/
 	background-size: contain;
 	cursor: pointer;
 }
@@ -314,7 +314,7 @@ a.menu-extended__item-txt{
 .circular-bg{
 	height: 50px;
 	width: 50px;
-	background-color: #ca8255;
+	background-color: #a89489;
 	border-radius: 25px;
 	margin: 0 auto;
 }
@@ -348,7 +348,7 @@ a.menu-extended__item-txt{
 }
 .service__btn i{
 	margin-left: 5px;
-	color: #ca8255;
+	color: #a89489;
 }
 #why-choose-us{
 	padding: 70px 0;
@@ -363,21 +363,20 @@ a.menu-extended__item-txt{
 .characteristics__item{
 	padding: 0 0 10px 0;
     font-size: 18px;
-    #ca8255
 }
 .characteristics__item i{
-	color: #ca8255;
+	color: #a89489;
 	padding-right: 5px;
 }
 .btn-primary {
     background: none;
-    border: 2px solid #ca8255;
+    border: 2px solid #a89489;
     border-radius: 30px;
     color: #555;
     padding: 10px 20px;
 }
 .btn-primary i {
-    color: #ca8255;
+    color: #a89489;
     margin-left: 8px;
     font-size: 16px;
 }
@@ -486,7 +485,7 @@ h2.page-header {
 #what-we-do li:hover div.block-in {
     position: absolute;
     top: 0;
-    background: #b7a66d;
+    background: #aa9288;
     height: inherit;
 }
 
@@ -534,7 +533,7 @@ h4 {
     height: 80px;
     border-radius: 100%;
     font-size: 30px;
-    color: #ca8255;
+    color: #9f8d7f;
     line-height: 80px;
     text-align: center;
     background: #f0f0f0;
@@ -555,5 +554,5 @@ h4 {
     transform: translateY(-50%);
 }
 #contacts a {
-    color: #ca8255;
+    color: #9f8d7f;
 }
