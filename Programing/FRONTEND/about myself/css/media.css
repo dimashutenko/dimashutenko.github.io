@@ -1,0 +1,770 @@
+@media screen and (max-width: 1200px) {
+	header {
+	    background: url(../img/header-pic-1200px.png) no-repeat 50% -30px;
+	    height: 727px;
+	}
+	h1{
+		font-size: 45px;
+		}
+
+	h2{
+		font-size: 35px;
+	}
+
+	h3{
+		font-size: 21px;
+	}
+
+	h4{ 
+		font-size: 14px;
+	}
+
+	.container{
+		width: 900px;
+	}
+
+	.menu{
+		margin: 0 80px 0 150px;
+	}
+	.main{
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+	span.main{
+		font-size: 29px;
+		margin-left: 20px;
+	}
+	h1.main  {
+		margin-top: 220px;
+	}
+	
+	.menu h4 {
+	    font-size: 14px;
+	    margin-right: 40px;
+	}
+
+	.arrow-down{
+		bottom: 10%;
+	}
+	
+	.section{
+		margin-top: 70px;
+	}
+
+	.section__title-1{
+		margin-bottom: 60px;
+	}
+
+	.side__title{
+		margin-bottom: 40px;
+	}
+
+	.left-side__text{
+		margin-bottom: 35px;
+	}
+
+	.skills__description{
+		width: 160px;
+	}
+
+	.images-wraper__image{
+		width: 600px;
+		height: 289px;
+		position: relative;
+	}
+
+	.images-wraper__image img {
+		width: 290px;
+		height: 289px;
+	}
+	.images-wraper__last-image{
+		width: 250px;
+		height: 289px;
+		position: relative;
+	}
+	.image__details{
+		padding-top: 115px;
+	}
+	footer{
+		margin: 100px 0;
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+	/*body *{
+		border: 1px solid blue;
+	}
+	body {
+		border: 1px solid red;
+	}*/
+	header {
+	    background: url(../img/header-pic-992px.png) no-repeat -300px -30px;
+	    height: 630px;
+	    width: 100vw;
+	}
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 32px;
+	}
+
+	h3{
+		font-size: 19px;
+	}
+
+	.container{
+		width: 740px;
+	}
+
+	.nav {
+	    font-size: 16px;
+	    padding-top: 50px;
+	}
+
+	.menu{
+		margin: 0 40px 0 80px;
+	}
+	.main{
+		margin-left: 0;
+		justify-content: center;
+    	-webkit-justify-content: center;
+	}
+	span.main{
+		font-size: 26px;
+		margin-left: 10vw;
+		line-height: 50pt;
+	}
+	.menu h4 {
+	    font-size: 13px;
+	    margin-right: 35px;
+	}
+
+	h1.main  {
+		margin-top: 180px;
+	}
+	.arrow-down{
+		bottom: 8%;
+		left: 50%;
+		margin-left: -0px;
+	}
+	
+	.section{
+		margin-top: 60px;
+	}
+
+	.section__title-1{
+		margin-bottom: 50px;
+	}
+
+	.side__title{
+		margin-bottom: 35px;
+	}
+
+	.left-side{
+		width: 46%;
+		margin-right: 60px;
+	}
+
+
+	.left-side__text{
+		margin-bottom: 30px;
+	}
+	 
+	.right-side{
+		width: 45%;
+	}
+
+	.right-side h3 {
+		text-align: center;
+	}
+
+	.merits{
+		margin-top:  55px;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		justify-content: space-around;
+		-webkit-justify-content: space-around;
+	}
+
+	.flex__merit{
+		margin: 0 30px 60px 0;
+	}
+
+	.merit{
+		margin: 0 0 20px 40px;
+	}
+
+
+	.merit-description{
+		margin: 5px 0 0 42px;
+	}
+
+	.merit-last-description{
+		margin: 0 0 0 54px;
+    	width: 80px;
+	}
+
+	.margin-change {
+	    margin: 30px 0;
+	}
+
+	.small-left {
+	    margin-right: 20px;
+	}
+
+	.small-right {
+	    background: url(../img/icon.png) no-repeat 35px 0;
+	    font-size: 12px;
+	    padding: 70px 0 0 0;
+	}
+
+	.skills__description{
+		padding: 0 20px;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.images-wraper__image{
+		width: 235px;
+    	height: 234px;
+		position: relative;
+	}
+
+	.images-wraper__image img {
+		width: 235px;
+    	height: 234px;
+	}
+
+	.image__details{
+		padding-top: 105px;
+	}
+
+	footer{
+		margin: 90px 0;
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	/*body *{
+		border: 1px solid blue;
+	}
+	body {
+		border: 1px solid red;
+	}*/
+	header{
+		background: url(../img/header-pic-756px.png) no-repeat -250px -30px;
+		height: 508px;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 32px;
+	}
+
+	h2{
+		font-size: 26px;
+	}
+
+	h3{
+		font-size: 16px;
+	}
+
+	h4{ 
+		font-size: 10px;
+	}
+
+	.container{
+		width: 550px;
+	}
+	
+	.nav {
+	    font-size: 12px;
+	    padding-top: 47px;
+	}
+
+	.menu{
+		margin: 0 20px 0 35px;
+	}
+	.main{
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+	span.main{
+		font-size: 24px;
+		line-height: 45pt;
+		margin-left: 20%;
+	}
+	.menu h4 {
+	    font-size: 10px;
+	    margin-right: 20px;
+	    padding-top: 2px;
+	}
+
+	.email{
+		font-size: 12px;
+	}
+
+	h1.main  {
+		margin-top: 140px;
+	}
+	.arrow-down{
+		bottom: 5%;
+	}
+	
+	.section{
+		margin-top: 50px;
+	}
+
+	.section__title-1{
+		margin-bottom: 40px;
+	}
+
+	.side__title{
+		margin-bottom: 25px;
+	}
+
+	.left-side{
+		width: 60%;
+		margin-right: 70px;
+	}
+
+	.left-side__text{
+		margin-bottom: 25px;
+		font-size: 13px;
+	}
+	 
+	.right-side{
+		width: 20%;
+	}
+
+	.right-side h3 {
+		text-align: center;
+	}
+
+	.merits{
+		margin-top:  45px;
+	}
+
+	.flex__merit{
+		margin: 0 0 96px 0;
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+
+	.merit{
+		width: 64px;
+		height: 64px;
+		margin: 0;
+	}
+	
+	.merit_1{
+		width: 62px;
+		height: 62px;
+	}
+
+	.merit_2{
+		width: auto;
+		height: 60px;
+	}
+
+
+	.merit_3{
+		width: auto;
+		height: 46px;
+	}
+
+	.number{
+		font-size: 18px;
+	}
+
+	.number-projects{
+		padding: 12px 0 0 8px ;
+	}
+
+
+	.number-feedbacks{
+		padding: 12px 0 0 4px ;
+	}
+
+	.number-experiance{
+		padding: 12px 0 0 12px ;
+	}
+
+	.merit-description{
+		margin: 0 0 0 30px;
+	}
+
+	.merit-last-description{
+		margin: 0 0 0 45px;
+    	width: 80px;
+	}
+
+	.right-side__communication{
+		margin-left: -380px;
+	}
+
+
+	.margin-change {
+	    margin: 0 0 20px 0;
+	}
+
+	.small-left {
+	    margin-right: 20px;
+	}
+
+	.small-right {
+	    background: url(../img/icon.png) no-repeat 35px 15px;
+	    font-size: 13px;
+	    padding: 38px 0 0 120px;
+	}
+
+	.skills{
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.skills__1, .skills__2 , .skills__3 , .skills__4 {
+		width: 230px;
+	}
+
+	.skills__1, .skills__2  {
+		margin-bottom: 20px;
+	}
+
+	.skills__description{
+		padding: 0 20px;
+		font-size: 15px;
+	}
+
+	.images-wraper{
+		justify-content: space-around;
+		flex-flow: row wrap;
+	}
+
+	.images-wraper__image{
+		width: 250px;
+    	height: 249px;
+		position: relative;
+	}
+
+	.images-wraper__last-image{
+		margin-top: 30px;
+		width: 300px;
+		height: 299px;
+	}
+
+	.images-wraper__image img {
+		width: 250px;
+    	height: 249px;
+	}
+
+	.images-wraper__last-image img{
+		width: 300px;
+		height: 299px;
+	}
+
+	.image__details{
+		padding-top: 100px;
+	}
+
+	.images-wraper__last-image .image__details{
+		padding-top: 125px;
+	}
+
+	.image__details h4{
+		line-height: 25px;
+		font-size: 12px;
+	}
+
+	.images-wraper__last-image h4{
+		line-height: 30px;
+		font-size: 15px;
+	}
+
+	footer{
+		margin: 80px 0;
+		font-size: 12px;
+	}
+
+}
+
+
+@media screen and (max-width: 576px) {
+	header{
+		background: url(../img/header-576px-pic.png) no-repeat -210px -60px ;
+		height: 300px;
+		width: 100%;
+		letter-spacing: 0.02em;
+	}
+
+	h1{
+		font-size: 20px;
+	}
+
+	h2{
+		font-size: 15px;
+	}
+
+	h3{
+		font-size: 13px;
+	}
+
+	h4{ 
+		font-size: 8px;
+	}
+
+	.container{
+		width: 320px;
+	}
+	
+	.nav {
+	    font-size: 9px;
+	    padding: 5vh 0 0 10px;
+	}
+
+	.menu{
+		margin: 15px -95px 0 0;
+	}
+
+	.email{
+		font-size: 9px;
+		margin-left: 80px;
+	}
+	.main{
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+	span.main{
+		font-size: 18px;
+		line-height: 30pt;
+		margin-left: 25px;
+	}
+	.menu h4 {
+	    font-size: 8px;
+	    margin-right: 20px;
+	    padding-top: 2px;
+	}
+
+	h1.main  {
+		margin-top: 70px;
+	}
+	.arrow-down{
+		bottom: 5%;
+		background: url(../img/arrow-down.png) no-repeat ;
+		background-size: 25px auto;
+		margin-left: -20px;
+	}
+
+	.arrow-down img {
+		opacity: 0;
+	}
+	
+	.section{
+		margin-top: 40px;
+	}
+
+	.section__title-1{
+		margin-bottom: 30px;
+	}
+
+	.side__title{
+		margin-bottom: 20px;
+	}
+
+	.left-side{
+		width: 55%;
+		margin-right: 40px;
+	}
+
+	.left-side__text{
+		margin-bottom: 25px;
+		font-size: 11px;
+	}
+	 
+	.right-side{
+		width: 32%;
+	}
+
+	.right-side h3 {
+		text-align: center;
+	}
+
+	.merits{
+		margin-top:  40px;
+	}
+
+	.flex__merit{
+		margin: 0 0 90px 0;
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+
+	.merit{
+		width: 54px;
+		height: 54px;
+		margin: 0;
+	}
+	
+	.merit_1{
+		width: 52px;
+		height: 52px;
+	}
+
+	.merit_2{
+		width: auto;
+		height: 50px;
+	}
+
+
+	.merit_3{
+		width: auto;
+		height: 36px;
+	}
+
+	.number{
+		font-size: 15px;
+	}
+
+	.number-projects{
+		padding: 4px 0 0 5px ;
+	}
+
+
+	.number-feedbacks{
+		padding: 4px 0 0 3px ;
+	}
+
+	.number-experiance{
+		padding: 4px 0 0 9px ;
+	}
+
+	.merit-description{
+		margin: 0 0 0 20px;
+		font-size: 10px;
+	}
+
+	.merit-last-description{
+		margin: 0 0 0 40px;
+    	width: 80px;
+	}
+
+	.right-side__communication{
+		margin: 0;
+	}
+
+	.right-side__communication .flex{
+		flex-flow: row wrap;
+	}
+
+
+	.margin-change {
+	    margin: 0 0 15px 0;
+	}
+
+	.small-left {
+	    margin: 0;
+	}
+
+	.link{
+		margin: 0;
+		line-height: 25px;
+		font-size: 10px;
+		letter-spacing: 0.02em;
+	}
+
+	.small-right {
+	    background: url(../img/icon.png) no-repeat 18px 10px;
+	    font-size: 10px;
+	    padding: 80px 0 0 0;
+	    letter-spacing: 0.01em;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.skills{
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.big-circle{
+		width: 44px;
+		height: 44px;
+		padding: 5px;
+	}
+
+	.circle{
+		width: 32px;
+		height: 32px;
+	}
+
+	.per-cent-number{
+		font-size: 11px;
+	}
+
+	.skills__description{
+		padding: 0 0 0 15px;
+		width: 120px;
+		font-size: 12px;
+	}
+
+
+
+
+	.skills__1,  .skills__3  {
+		margin: 0 0 20px 0px;
+		width: 140px;
+	}
+	
+	.skills__2 , .skills__4 {
+		margin: 0 20px 20px 10px;
+		width: 100px;
+	}
+
+	.works{
+		margin-bottom: 10px;
+	}
+
+	.images-wraper{
+		justify-content: space-around;
+		flex-flow: row wrap;
+	}
+
+	.images-wraper__image{
+		margin-top: 20px;
+		width: 300px;
+		height: 299px;
+		position: relative;
+	}
+
+
+	.images-wraper__image img {
+		width: 300px;
+		height: 299px;
+	}
+
+	.image__details{
+		padding-top: 125px;
+	}
+
+
+	.image__details h4{
+		line-height: 25px;
+		font-size: 12px;
+	}
+
+	.images-wraper__last-image h4{
+		line-height: 25px;
+		font-size: 12px;
+	}
+
+	footer{
+		margin: 70px 0;
+		font-size: 11px;
+	}
+}

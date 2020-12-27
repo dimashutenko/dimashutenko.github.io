@@ -1,0 +1,6 @@
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\bin\Debug\Form1.Designer.cs.exe
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\bin\Debug\Form1.Designer.cs.pdb
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\obj\x86\Debug\Form1.Designer.cs.Properties.Resources.resources
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\obj\x86\Debug\Form1.Designer.cs.csproj.GenerateResource.Cache
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\obj\x86\Debug\Form1.Designer.cs.exe
+C:\Dima\Programing\c#\lab 10-11-12\WindowsFormsApplication5\Form1.Designer.cs\obj\x86\Debug\Form1.Designer.cs.pdb

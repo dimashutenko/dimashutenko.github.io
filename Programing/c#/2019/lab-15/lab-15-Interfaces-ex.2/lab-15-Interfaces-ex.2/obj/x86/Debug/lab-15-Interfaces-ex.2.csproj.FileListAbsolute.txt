@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interfaces-ex.2\lab-15-Interfaces-ex.2\bin\Debug\lab-15-Interfaces-ex.2.exe
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interfaces-ex.2\lab-15-Interfaces-ex.2\bin\Debug\lab-15-Interfaces-ex.2.pdb
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interfaces-ex.2\lab-15-Interfaces-ex.2\obj\x86\Debug\lab-15-Interfaces-ex.2.exe
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interfaces-ex.2\lab-15-Interfaces-ex.2\obj\x86\Debug\lab-15-Interfaces-ex.2.pdb

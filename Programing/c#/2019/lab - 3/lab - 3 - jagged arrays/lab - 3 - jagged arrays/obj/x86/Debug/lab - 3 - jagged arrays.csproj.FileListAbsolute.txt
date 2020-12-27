@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - jagged arrays\lab - 3 - jagged arrays\bin\Debug\lab - 3 - jagged arrays.exe
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - jagged arrays\lab - 3 - jagged arrays\bin\Debug\lab - 3 - jagged arrays.pdb
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - jagged arrays\lab - 3 - jagged arrays\obj\x86\Debug\lab - 3 - jagged arrays.exe
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - jagged arrays\lab - 3 - jagged arrays\obj\x86\Debug\lab - 3 - jagged arrays.pdb

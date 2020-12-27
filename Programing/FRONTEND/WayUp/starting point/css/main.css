@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+a, input, button, .button{
+	outline: none;
+}
+a, input, button, .button:focus{
+	outline: none;
+}
+a, input, button, .button:active{
+	outline: none;
+}
+a, input, button, .button:hover{
+	outline: none;
+	text-decoration: none;
+}
+body{
+	letter-spacing: 0;
+	font-family: 'Museo Sans Cyrl 100', sans-serif;
+}
+

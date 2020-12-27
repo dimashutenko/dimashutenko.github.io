@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 9\auto-salon\auto-salon\bin\Debug\auto-salon.exe
+C:\Dima\Programing\c#\2019\lab - 9\auto-salon\auto-salon\bin\Debug\auto-salon.pdb
+C:\Dima\Programing\c#\2019\lab - 9\auto-salon\auto-salon\obj\x86\Debug\auto-salon.exe
+C:\Dima\Programing\c#\2019\lab - 9\auto-salon\auto-salon\obj\x86\Debug\auto-salon.pdb

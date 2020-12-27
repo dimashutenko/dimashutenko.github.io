@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Single Dimensional Arrays\lab - 2 - Single Dimensional Arrays\bin\Debug\lab - 2 - Single Dimensional Arrays.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Single Dimensional Arrays\lab - 2 - Single Dimensional Arrays\bin\Debug\lab - 2 - Single Dimensional Arrays.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Single Dimensional Arrays\lab - 2 - Single Dimensional Arrays\obj\x86\Debug\lab - 2 - Single Dimensional Arrays.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Single Dimensional Arrays\lab - 2 - Single Dimensional Arrays\obj\x86\Debug\lab - 2 - Single Dimensional Arrays.pdb

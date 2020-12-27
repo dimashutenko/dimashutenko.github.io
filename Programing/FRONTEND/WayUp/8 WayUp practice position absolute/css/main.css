@@ -1,0 +1,28 @@
+body{
+
+}
+
+
+.block{
+	width: 400px;
+	background: #777;
+	margin: 100px;
+	height: 100px;
+/*	overflow: hidden;  hidden прячит ту часть, которая віходит за рамки*/
+/*	overflow: auto; or overflow: scroll;   gives an opportunity to scroll the line*/
+	overflow-y: scroll;
+	overflow-x: scroll;
+
+}
+
+p{
+	width: 600px;
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: relative;
+	padding: 10px;
+}

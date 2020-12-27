@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab-16\lab-16-tuple-кортежи\lab-16-tuple-кортежи\bin\Debug\lab-16-tuple-кортежи.exe
+C:\Dima\Programing\c#\2019\lab-16\lab-16-tuple-кортежи\lab-16-tuple-кортежи\bin\Debug\lab-16-tuple-кортежи.pdb
+C:\Dima\Programing\c#\2019\lab-16\lab-16-tuple-кортежи\lab-16-tuple-кортежи\obj\x86\Debug\lab-16-tuple-кортежи.exe
+C:\Dima\Programing\c#\2019\lab-16\lab-16-tuple-кортежи\lab-16-tuple-кортежи\obj\x86\Debug\lab-16-tuple-кортежи.pdb

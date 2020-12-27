@@ -1,0 +1,1059 @@
+@media screen and (min-width: 576px) {
+	.container{
+		max-width: 550px;
+	}
+	body{
+		font-size: 12px;
+	}
+	.button{
+		height: 80px;
+		width: 200px;
+	}
+	.button a {
+		height: 45px;
+		width: 171px;
+		border-radius: 50px;
+		margin: 4px 0px 0px 19px;
+	}
+	.header{
+		height: 560px;
+		background: url(../img/first-bg.jpg)no-repeat center 24px ;
+	}
+	.top-line{
+		padding: 1.5px 2%;
+	}
+	.socials__icon {
+		margin-right: 12px;
+	}
+	.socials__icon a{
+		font-size: 14px;
+	}
+	nav{
+		padding: 0 1%;
+		margin-top: 1%;
+		height: 30px;
+	}
+	a.logo{
+		height: 13px;
+		width: 50px;
+	}
+	a.logo img{
+		height: 90%;
+		width: 95%;
+		padding: 0 0 5% 5%;
+	}
+	.menu{
+		height: 55px;
+		width: 70%;
+		margin-top: 1px;
+	}
+	.menu__item{
+		margin: 0 4px;
+	}
+	.menu__item a {
+		font-size: 12px;
+		padding: 0 0.5vw 8px 0.5vw;
+	}
+	.menu__item a:hover{
+		border-bottom: 2.5px solid #ff4081;
+	}
+	.user__icon a{
+		font-size: 15px;
+		margin-left: 8px;
+	}
+	.offer{
+		width: 540px;
+		top: 25%;
+		left: 50%;
+		margin-left: -275px;
+	}
+	.offer__category{
+		font-size: 22px;
+	}
+	.offer__title{
+		font-size: 32px;
+		margin: 15px 0;
+		line-height: 42px;
+	}
+	.offer__btn{
+		margin: 0px 0px 15px 0px;
+	}
+	.author{
+		bottom: 4%;
+		left: 50%;
+		margin-left: -60px;
+	}
+	.author__picture{
+		margin: 0 auto 15px auto ;
+	}
+	.author__name{
+		font-size: 13px;
+	}
+	.author__details{
+		font-size: 11px;
+	}
+	.space:after{
+		width: 0px;
+	}
+	#section-2{
+		height: 60px;
+	}
+	.sortbar{
+		font-size: 13px;
+	}
+	.sortbar__title {
+	    width: 100px;
+	    padding-top: 20px;	
+	}
+	.sortbar__list{
+		width: 400px;
+		padding: 0 0 0 8px;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+	}
+	.sortbar__item{
+		margin: 5px 0;
+	}
+	.sortbar__button{
+		border-radius: 50px;
+		padding: 2px 14px;
+		margin-right: 12px;
+	}
+	.paralax{
+		background: #f5f5f5 url(../img/forest.png) no-repeat 0 170px fixed ;
+	}
+	.articles{
+		padding-top: 20px;
+	}
+	.article__details {
+		margin-top: -25px;
+		padding: 0 15px;
+	}
+	.article__category{
+		font-size: 13px;
+	}
+	.article__data{
+		font-size: 12px;
+	}
+	.article__data i{
+		font-size: 14px;
+	}
+	.article__data{
+		margin-top: 0;
+	}
+	.article__data__comments{
+		margin-right: 12px;
+	}
+	.article__title{
+		font-size: 16px;
+		margin: 12px 0 8px 18px;
+	}
+	.article__intro{
+		font-size: 13px;
+		padding:0 5px 12px 18px;
+		margin-bottom: 0;
+	}
+	.article__author{
+		border-top: 1px solid #dddddd;
+		padding: 10px 0 5px 18px;
+	}
+	.article__author img{
+		width: 50px;
+		height: 50px;
+	}
+	.atricle__author-name{
+		padding: 5px 0 0 8px;
+		font-size: 13px;
+	}
+	.atricle__author-date{
+		font-size: 12px;
+		padding-top: 2px;
+	}
+	.articles-sidebar{
+		margin: 10px 60px;
+		border-radius: 4px;
+		height: 100%;
+		width: 100%;
+	}
+	.search{
+		padding: 12px 0 0 22px;
+	}
+	.search-input{
+		border-radius: 50px;
+		font-size: 14px;
+		width: 95%;
+		padding: 11px 20px;
+	}
+	.search-btn{
+		border-radius: 50%;
+		font-size: 18px;
+		width: 30px;
+		height: 30px;
+		top: 33%;
+		left: 86%;
+	}
+	.categories{
+		margin-bottom: -15px;
+	}
+	.category{
+		font-size: 13px;
+	}
+	.categories__title{
+		font-size: 15px;
+		padding: 18px 0 5px 22px;
+	}
+	.category__title{
+		padding: 8px 0 8px 22px;
+	}
+	.category__number{
+		padding: 8px 12px;
+	}
+	.skills{
+		padding-top: 20px;
+	}
+	.skills .row{
+		margin: 0;
+		width: 100%;
+	}
+	.skill {
+	    margin: 5px 60px;
+	}
+	.skills__item{
+		padding: 25px;
+	}
+	.skills__item i{
+		font-size: 35px;
+	}
+	.down-space{
+		padding-bottom: 15px;
+	}
+	.skill__title{
+		font-size: 17px;
+		width: 100%;
+		margin-bottom: 12px;
+	}
+	.skills__text{
+		font-size: 13px;
+		margin: 0;
+	}
+	.instagram{
+		padding-top: 15px;
+	}
+	.instagram .container-fluid{
+		height: 120px;
+	}
+	.photos__item{
+		width: 120px;
+		height: 120px;
+	}
+	.subscribe{
+		padding: 45px 0;
+	}
+	.subsctibe__title{
+		font-size: 32px;
+		text-align: center;
+	}
+	.subscribe__register{
+		margin-left: 50px;
+	}
+	.register{
+		width: 100%;
+		height:100px;
+		padding-left: 0;
+	}
+	.register__input{
+		font-size: 14px;
+		width: 250px;
+		padding: 9px 20px;
+		margin: 0 0 0 85px;
+	}
+	.register__btn{
+		margin: 15px 0 0 105px;
+	}
+	a.subscribe-btn {
+		font-size: 18px;
+		margin-top: -27px;
+		padding: 10px;
+	}
+	.footer{
+		height: 90px;
+	}
+	footer .container{
+		width: auto;
+		margin-right: 0;
+	}
+	footer .menu{
+		width: 86%;
+	}
+	footer.menu__item{
+		font-size: 12px;
+	}
+	.all_rights_reserved{
+		font-size: 10px;
+		margin: 12px 5px 0 auto;
+	}
+}
+@media screen and (min-width: 768px) {
+	.container{
+		max-width: 768px;
+	}
+	body{
+		font-size: 13px;
+	}
+	.button a {
+		height: 45px;
+		width: 171px;
+		border-radius: 50px;
+		margin: 4px 0px 0px 19px;
+	}
+	.header{
+		height: 650px;
+		background: url(../img/first-bg.jpg)no-repeat center 33px ;
+	}
+	.top-line{
+		padding: 5px 2%;
+	}
+	.socials__icon {
+		margin-right: 14px;
+	}
+	.socials__icon a{
+		font-size: 16px;
+	}
+	nav{
+		padding: 0 2%;
+	}
+	a.logo{
+		height: 17px;
+		width: 65px;
+	}
+	a.logo img{
+		height: 90%;
+		width: 95%;
+		padding: 0 0 5% 5%;
+	}
+	.menu__item{
+		margin: 0 5px;
+	}
+	.menu__item a {
+		font-size: 13px;
+		padding: 0 1.3vw 15px 1.3vw;
+	}
+	.menu__item a:hover{
+		border-bottom: 3px solid #ff4081;
+	}
+	.user {
+	    margin-top: -3px;
+	}
+	.user__icon a{
+		font-size: 17px;
+		margin-left: 8px;
+	}
+	.offer{
+		width: 650px;
+		top: 30%;
+		left: 50%;
+		margin-left: -340px;
+	}
+	.offer__category{
+		font-size: 24px;
+	}
+	.offer__title{
+		font-size: 36px;
+		margin: 20px 0;
+		line-height: 46px;
+	}
+	.offer__btn{
+		margin: 0px 0px 50px 0px;
+	}
+	.author{
+		margin-left: -74px;
+		
+	}
+	.author__name{
+		font-size: 14px;
+	}
+	.author__details{
+		font-size: 12px;
+	}
+	.space:after{
+		width: 2px;
+	}
+	#section-2{
+		height: 65px;
+	}
+	.sortbar{
+		font-size: 14px;
+	}
+	.sortbar__title {
+	    width: 120px;
+	    padding: 20px 0 0 0;	
+	}
+	.sortbar__list{
+		width: 480px;
+		padding: 0 0 0 8px;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+	}
+	.sortbar__item{
+		margin: 6px 0;
+	}
+	.sortbar__button{
+		border-radius: 50px;
+		padding: 3px 17px;
+		margin-right: 14px;
+	}
+	.paralax{
+		background: #f5f5f5 url(../img/forest.png) no-repeat 0 170px fixed ;
+	}
+	.articles{
+		padding-top: 28px;
+	}
+	.article__details {
+		margin-top: -30px;
+		padding: 0 18px;
+	}
+	.article__category{
+		font-size: 14px;
+	}
+	.article__data{
+		font-size: 12px;
+	}
+	.article__data i{
+		font-size: 15px;
+	}
+	.article__data{
+		margin-top: 2px;
+	}
+	.article__data__comments{
+		margin-right: 18px;
+	}
+	.article__data__likes{
+		margin-right: 2px;
+	}
+	.article__title{
+		font-size: 17px;
+		margin: 15px 0 10px 18px;
+	}
+	.article__intro{
+		font-size: 14px;
+		padding:0 5px 15px 18px;
+	}
+	.article__author{
+		border-top: 1px solid #dddddd;
+		padding: 10px 0 5px 18px;
+	}
+	.article__author img{
+		width: 50px;
+		height: 50px;
+	}
+	.atricle__author-name{
+		padding: 5px 0 0 8px;
+		font-size: 13px;
+	}
+	.atricle__author-date{
+		font-size: 12px;
+		padding-top: 2px;
+	}
+	.articles-sidebar {
+	    border-radius: 4px;
+	    height: 97%;
+	    width: 100%;
+	}
+	.search{
+		padding: 22px 0 0 22px;
+	}
+	.search-input{
+		border-radius: 50px;
+		font-size: 16px;
+		width: 91%;
+		padding: 11px 22px;
+	}
+	.search-btn{
+		border-radius: 50%;
+		font-size: 19px;
+		width: 34.5px;
+		height: 34.5px;
+		top: 40%;
+		left: 82.5%;
+	}
+	.category{
+		font-size: 14px;
+	}
+	.categories {
+	    margin-bottom: 0;
+	}
+	.categories__title{
+		font-size: 18px;
+		font-weight: 900;
+		padding: 21px 0 7px 22px;
+	}
+	.category__title{
+		padding: 10px 0 10px 22px;
+	}
+	.category__number{
+		padding: 10px;
+	}
+	.skills{
+		padding-top: 15px;
+	}
+	.skill{
+		margin: 5px 60px;
+	}
+	.skills__item{
+		padding: 30px 20px;
+	}
+	.skills__item i{
+		font-size: 38px;
+	}
+	.down-space{
+		padding-bottom: 20px;
+	}
+	.skill__title{
+		font-size: 17px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.skills__text{
+		font-size: 14px;
+		margin: 0;
+	}
+	.instagram{
+		padding-top: 15px;
+	}
+	.instagram .container-fluid{
+		height: 150px;
+	}
+	.photos__item{
+		width: 150px;
+		height: 150px;
+	}
+	.subscribe{
+		padding: 50px 0 30px 0;
+	}
+	.subsctibe__title{
+		font-size: 34px;
+		margin-bottom: 10px;
+	}
+	.subscribe__register{
+		margin-left: 0;
+	}
+	.register{
+		width: 100%;
+		height:125px;
+		display: block;
+	}
+	.register__input{
+		border-radius: 50px;
+		font-size: 15px;
+		width: 250px;
+		padding: 10px 20px;
+		margin-left: 19%;
+		height: 40px;
+	}
+	.register__btn{
+		margin: 23px 0 0 0;
+	}
+	a.subscribe-btn {
+		font-size: 18px;
+		margin-top: -27px;
+		padding: 10px;
+	}
+	footer.menu__item{
+		font-size: 12px;
+	}
+	.all_rights_reserved{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container{
+		max-width: 992px;
+	}
+	body{
+		font-size: 14px;
+		letter-spacing: 0.05em;
+	}
+	.button a {
+		height: 45px;
+		width: 171px;
+		border-radius: 50px;
+		margin: 4px 0px 0px 19px;
+	}
+	.header{
+		height: 780px;
+	}
+	.top-line{
+		padding: 10px 2%;
+	}
+	.socials__icon a{
+		font-size: 16px;
+	}
+	nav{
+		padding: 0 2%;
+	}
+	a.logo{
+		height: 22px;
+		width: 91px;
+	}
+	a.logo img{
+		height: 95%;
+		width: 100%;
+		padding: 2.5% 0;
+	}
+	.menu__item{
+		margin-right: 10px;
+	}
+	.menu__item a {
+		font-size: 14px;
+		padding: 0 17px 20px 17px;
+	}
+	.menu__item a:hover{
+		border-bottom: 4px solid #ff4081;
+	}
+	.user__icon a{
+		font-size: 24px;
+		margin-left: 15px;
+	}
+	.offer{
+		width: 750px;
+		top: 35%;
+		left: 50%;
+		margin-left: -375px;
+	}
+	.offer__category{
+		font-size: 26px;
+	}
+	.offer__title{
+		font-size: 40px;
+		margin: 20px 0;
+		line-height: 50px;
+	}
+	.offer__btn{
+		margin: 0px 0px 70px 0px;
+	}
+	.author{
+		margin-left: -60px;
+	}
+	.author__name{
+		font-size: 15px;
+	}
+	.author__details{
+		font-size: 12px;
+	}
+	.space:after{
+		width: 2px;
+	}
+	#section-2{
+		height: 60px;
+	}
+	.sortbar{
+		padding-top: 18px;
+		font-size: 16px;
+	}
+	.sortbar__title{
+		padding-top: 0;
+	}
+	.sortbar__list{
+		width: 700px;
+	}
+	.sortbar__item {
+	    padding: 0;
+	    margin: 0;
+	}
+	.sortbar__button{
+		border-radius: 50px;
+		padding: 3px 17px;
+		margin-right: 14px;
+	}
+	.paralax{
+		background: #f5f5f5 url(../img/forest.png) no-repeat 0 170px fixed ;
+	}
+	.articles{
+		padding-top: 28px;
+	}
+	.article__details {
+		margin-top: -38px;
+		padding: 0 18px;
+	}
+	.article__category{
+		font-size: 16px;
+	}
+	.article__data{
+		font-size: 12px;
+	}
+	.article__data i{
+		font-size: 16px;
+	}
+	.article__data__comments{
+		margin-right: 18px;
+	}
+	.article__data__likes{
+		margin-right: 2px;
+	}
+	.article__title{
+		font-size: 18px;
+		margin: 20px 0 10px 18px;
+	}
+	.article__intro{
+		font-size: 15px;
+		letter-spacing: 0.04em;
+		padding: 0 5px 15px 18px;
+	}
+	.article__author{
+		border-top: 1px solid #dddddd;
+		padding: 18px;
+	}
+	.article__author img{
+		width: 50px;
+		height: 50px;
+	}
+	.atricle__author-name{
+		padding: 5px 0 0 8px;
+		font-size: 14px;
+	}
+	.atricle__author-date{
+		font-size: 12px;
+		padding-top: 2px;
+	}
+	.articles-sidebar{
+		border-radius: 4px;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+	}
+	.search{
+		padding: 22px 0 0 22px;
+	}
+	.search-input{
+		border-radius: 50px;
+		font-size: 16px;
+		width: 91%;
+		padding: 13px 22px;
+	}
+	.search-btn{
+		border-radius: 50%;
+		font-size: 19px;
+		width: 35px;
+		height: 35px;
+		top: 40%;
+		left: 72.5%;
+	}
+	.category{
+		letter-spacing: 0.04em;
+		font-size: 14px;
+	}
+	.categories__title{
+		font-size: 18px;
+		font-weight: 900;
+		padding: 21px 0 7px 22px;
+	}
+	.category__title{
+		padding: 10px 0 10px 22px;
+	}
+	.category__number{
+		padding: 10px;
+	}
+	.skills{
+		padding-top: 28px;
+	}
+	.skill {
+	    margin: 0;
+	}
+	.skills__item{
+		padding: 45px 25px;
+	}
+	.skills__item i{
+		font-size: 38px;
+	}
+	.down-space{
+		padding-bottom: 30px;
+	}
+	.skill__title{
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 18px;
+	}
+	.skills__text{
+		font-size: 14px;
+		margin: 0;
+	}
+	.instagram{
+		padding-top: 32px;
+	}
+	.instagram .container-fluid{
+		height: 200px;
+	}
+	.photos__item{
+		width: 200px;
+		height: 200px;
+	}
+	.subscribe{
+		padding: 78px 0;
+	}
+	.subsctibe__title{
+		font-size: 38px;
+	}
+	.subscribe__register{
+		margin-left: -20px;
+	}
+	.register{
+		display: flex;
+		width: 100%;
+		height:42px;
+	}
+	.register__input{
+		border-radius: 50px;
+		font-size: 16px;
+		width: 360px;
+		height: 44px;
+		padding: 10px 22px;
+		margin-left: 0;
+	}
+	.register__btn{
+		margin: 50px 0 0 -300px;
+	}
+	a.subscribe-btn {
+		font-size: 18px;
+		letter-spacing: 0.1em;
+		margin-top: -27px;
+		padding: 10px;
+	}
+	.footer{
+		width: 100%;
+	}
+	footer.menu__item{
+		font-size: 12px;
+	}
+}
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1200px;
+	}
+		.offer__title{
+		font-size: 42px;
+		line-height: 50px;
+	}
+	.button a {
+		height: 45px;
+		width: 171px;
+		border-radius: 50px;
+		margin: 4px 0px 0px 19px;
+	}
+	.header{
+		height: 835px;
+	}
+	.top-line{
+		padding: 10px 2%;
+	}
+	nav{
+		padding: 0 2%;
+	}
+	.menu__item{
+		margin-right: 10px;
+	}
+	.menu__item a {
+		font-size: 14px;
+		padding: 0 17px 25px 17px;
+	}
+	.menu__item a:hover{
+		border-bottom: 4px solid #ff4081;
+	}
+	.user__icon a{
+		font-size: 24px;
+		margin-left: 15px;
+	}
+	.offer{
+		width: 760px;
+		top: 35.5%;
+		left: 50%;
+		margin-left: -380px;
+	}
+	.offer__category{
+		font-size: 28px;
+	}
+	.offer__title{
+		font-size: 42px;
+		margin: 20px 0;
+		line-height: 52px;
+	}
+	.offer__btn{
+		margin: 0px 0px 70px 0px;
+	}
+	.author{
+		bottom: 10%;
+	}
+	.author__name{
+		font-size: 15px;
+	}
+	.author__details{
+		font-size: 12px;
+	}
+	.space:after{
+		width: 2px;
+	}
+	#section-2{
+		height: 60px;
+	}
+	.sortbar{
+		padding-top: 18px;
+		font-size: 16px;
+	}
+	.sortbar__list{
+		padding: 0 0 0 8px;
+	}
+	.sortbar__button{
+		border-radius: 50px;
+		padding: 3px 17px;
+		margin-right: 14px;
+	}
+	.paralax{
+		background: #f5f5f5 url(../img/forest.png) no-repeat 0 170px fixed ;
+	}
+	.articles{
+		padding-top: 30px;
+	}
+	.article__details {
+		margin-top: -38px;
+		padding: 0 18px;
+	}
+	.article__category{
+		font-size: 16px;
+	}
+	.article__data{
+		font-size: 12px;
+	}
+	.article__data i{
+		font-size: 16px;
+	}
+	.article__data__comments{
+		margin-right: 18px;
+	}
+	.article__data__likes{
+		margin-right: 2px;
+	}
+	.article__title{
+		font-size: 18px;
+		margin: 25px 0 10px 18px;
+	}
+	.article__intro{
+		font-size: 15.5px;
+		padding:0 5px 15px 18px;
+	}
+	.article__author{
+		border-top: 1px solid #dddddd;
+		padding: 18px;
+	}
+	.article__author img{
+		width: 50px;
+		height: 50px;
+	}
+	.atricle__author-name{
+		padding: 5px 0 0 8px;
+		font-size: 14px;
+	}
+	.atricle__author-date{
+		font-size: 12px;
+		padding-top: 2px;
+	}
+	.articles-sidebar{
+		border-radius: 4px;
+		height: 100%;
+		width: 100%;
+	}
+	.search{
+		padding: 22px 0 0 22px;
+	}
+	.search-input{
+		border-radius: 50px;
+		font-size: 16px;
+		width: 91%;
+		padding: 13px 22px;
+	}
+	.search-btn{
+		border-radius: 50%;
+		font-size: 19px;
+		width: 35px;
+		height: 35px;
+		top: 40%;
+		left: 76%;
+	}
+	.category{
+		font-size: 14px;
+	}
+	.categories__title{
+		font-size: 18px;
+		font-weight: 900;
+		padding: 21px 0 7px 22px;
+	}
+	.category__title{
+		padding: 10px 0 10px 22px;
+	}
+	.category__number{
+		padding: 10px;
+	}
+	.skills{
+		padding-top: 30px;
+	}
+	.skill{
+		margin: 10px 0;
+	}
+	.skills__item{
+		padding: 60px 30px 54px 30px;
+	}
+	.skills__item i{
+		font-size: 40px;
+	}
+	.down-space{
+		padding-bottom: 32px;
+	}
+	.skill__title{
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.skills__text{
+		font-size: 14px;
+		margin: 0 -5px 0 -2px;
+	}
+	.instagram{
+		padding-top: 34px;
+	}
+	.instagram .container-fluid{
+		height: 240px;
+	}
+	.photos__item{
+		width: 240px;
+		height: 240px;
+	}
+	.subscribe{
+		padding: 80px 0;
+	}
+	.subsctibe__title{
+		font-size: 42px;
+		text-align: start;
+	}
+	.subscribe__register{
+		margin-left: -100px;
+	}
+	.register{
+		width: 100%;
+		height:45px;
+	}
+	.register__input{
+		border-radius: 50px;
+		font-size: 16px;
+		width: 260px;
+		padding: 13px 22px;
+	}
+	.register__btn{
+		margin-top: -4px;
+	}
+	a.subscribe-btn {
+		font-size: 18px;
+		margin-top: -27px;
+		padding: 10px;
+	}
+	footer.menu__item{
+		font-size: 12px;
+	}
+}

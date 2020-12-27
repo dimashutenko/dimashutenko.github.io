@@ -1,0 +1,38 @@
+h1 {font-size: 40px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 20px;
+    text-align: center
+}
+h2{ font-size:  30px ;
+    font-weight: 500;
+    text-indent: 100px
+}
+h3{font-size:  32px ;
+    font-weight: 800
+}
+h4{font-size:  32px ;
+    font-weight: 800;
+    text-align: center
+}
+h5{font-size:  30px ;
+    font-weight: 500;
+    text-indent: 20px
+}
+h6{font-size:  20px ;
+    font-weight: 100;
+}
+p1{ font-size: 28px;
+    color: gray;
+    font-style: italic;
+}
+p2{font-size:  20px ;
+    font-weight: 100;
+    text-decoration: underline
+}
+div{
+    padding: 70px;
+}
+.img2{
+    border: 4px dashed red;
+}

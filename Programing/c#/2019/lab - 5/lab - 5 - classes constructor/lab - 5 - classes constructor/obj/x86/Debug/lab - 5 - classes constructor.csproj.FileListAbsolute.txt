@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab - 5\lab - 5 - classes constructor\lab - 5 - classes constructor\bin\Debug\lab - 5 - classes constructor.exe
+C:\Dima\Programing\c#\2019\lab - 5\lab - 5 - classes constructor\lab - 5 - classes constructor\bin\Debug\lab - 5 - classes constructor.pdb
+C:\Dima\Programing\c#\2019\lab - 5\lab - 5 - classes constructor\lab - 5 - classes constructor\obj\x86\Debug\lab - 5 - classes constructor.exe
+C:\Dima\Programing\c#\2019\lab - 5\lab - 5 - classes constructor\lab - 5 - classes constructor\obj\x86\Debug\lab - 5 - classes constructor.pdb
+C:\Dima\Programing\c#\2019\lab - 5\lab - 5 - classes constructor\lab - 5 - classes constructor\obj\x86\Debug\lab - 5 - classes constructor.csprojResolveAssemblyReference.cache

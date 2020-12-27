@@ -1,0 +1,18 @@
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2\lab - 2\bin\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2\lab - 2\bin\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2\lab - 2\obj\x86\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2\lab - 2\obj\x86\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2\lab - 2\obj\x86\Debug\lab - 2.csprojResolveAssemblyReference.cache
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional Arrays\lab - 2\obj\x86\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional Arrays\lab - 2\obj\x86\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional Arrays\lab - 2\bin\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional Arrays\lab - 2\bin\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional Arrays\lab - 2\obj\x86\Debug\lab - 2.csprojResolveAssemblyReference.cache
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional and jagged  Arrays\lab - 2\obj\x86\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional and jagged  Arrays\lab - 2\obj\x86\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional and jagged  Arrays\lab - 2\bin\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - Multidimensional and jagged  Arrays\lab - 2\bin\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - string, Multidimensional and jagged  Arrays\lab - 2\obj\x86\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - string, Multidimensional and jagged  Arrays\lab - 2\obj\x86\Debug\lab - 2.pdb
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - string, Multidimensional and jagged  Arrays\lab - 2\bin\Debug\lab - 2.exe
+C:\Dima\Programing\c#\2019\lab - 2\lab - 2 - string, Multidimensional and jagged  Arrays\lab - 2\bin\Debug\lab - 2.pdb

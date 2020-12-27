@@ -1,0 +1,344 @@
+/*Спецификация*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 800;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+h2{
+	font-size: 30px;
+}
+
+
+ ul{
+	padding-left: 0px;
+ }
+
+ul li{
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div, section, form, button, span, p{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 0;
+}
+
+
+section{
+	padding-top: 80px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.flex{
+	display: flex;
+}
+
+.red{
+	color: #f34646;
+}
+
+.button{
+	color: #f34646;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 800;
+	width: 270px;
+	border-radius: 4px;
+	border: 2px solid #f34646;
+	background: none;
+	cursor: pointer;
+	padding: 26px;
+}
+
+.button:hover{
+	color: #fff;
+	background: #f34646;
+	transition: all 0.4s ease;
+}
+
+.button:active{
+	background: #af0505;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+/*Первый экран*/
+
+.header{
+	padding-top: 32px;
+	padding-bottom: 80px;
+}
+
+nav{
+	display: flex;
+}
+
+.logo{
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #d9d9d9;
+	margin-right: 120px;
+} 
+
+.mail{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-left: auto;
+}
+
+.description{
+	font-size: 15px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.description span{
+	padding-right: 19px;
+}
+
+.offer{
+	margin-top: 134px;
+}
+
+.offer__left{
+	width: 690px;
+}
+
+
+.offer__intro{
+	line-height: 33px;
+	font-weight: 800;
+	font-size: 18px;
+	width: 620px;
+	float: left;
+}
+
+.offer_btn{
+	margin-top: 45px;
+}
+
+.offer__right {
+	margin: 20px 0 0 30px;
+	width: 388px;
+}
+
+.wheel {
+	display: block;
+	margin: 0 10px 0 auto;
+	animation-name: spin;
+    animation-duration: 4500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.main-title{
+	margin-top: 10px;
+	margin-bottom: 55px;
+}
+
+.main-title__first{
+	font-size: 93px;
+	margin-right: 30px;
+}
+
+.main-title__second{
+	font-size: 37px;
+	color: #b4b4b4;
+	display: block;
+	margin-bottom: -10px;
+	margin-top: 17px;
+}
+
+.main-title__third{
+	font-size: 37px;
+}
+
+
+/*Второй экран*/
+
+.skills{
+	justify-content: space-between;
+	padding-left: 0px;
+	margin-top:80px;
+}
+
+.skills__item{
+	width: 370px;
+}
+
+.skills__title{
+	font-size: 21px;
+	letter-spacing: 0.2em;
+	margin-bottom: 30px;
+}
+
+.skills__text{
+	letter-spacing: 0.015em;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*третий экран*/
+
+
+.reasons-wrap{
+	/*justify-content: space-between; левый элемент прижимается к левому краю, правый к правому*/
+}
+.reasons-wrap__img{
+	width: 470px;
+	padding: 95px 70px;
+}
+ 
+
+.reasons-wrap__content{
+ width: 583px;
+}
+
+
+.reasons-list{
+	margin-top: 60px;
+}
+
+.reasons-list__item{
+	
+}
+
+.reasons-list__index{
+	font-weight: 800;
+	font-size: 47px;
+}
+
+.reasons-list__title{
+	font-size: 16px;
+	letter-spacing: 0.2em;
+}
+
+.reasons-list__content{
+	margin-left: 33px;
+	margin-top: 22px;
+}
+
+.reasons-list__text{
+	line-height: 24pt;
+}
+
+/*reg*/
+
+input, button {
+	font-family: 'Open Sans', sans-serif;
+} 
+
+.suggestion{
+	font-weight: 800;
+	width: 540px;
+	line-height: 22pt;
+	margin-top: 35px;
+}
+
+.details{
+	margin-top: 36px;
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 65px;
+}
+
+.details__time{
+	margin-right: 28px;
+}
+
+.form{
+	margin: 55px 0 0 0;
+}
+
+.form__input{
+	display: block;
+	padding: 13px 0;
+	border: none;
+	border-bottom: 1px solid #adadad;
+	width: 220px;
+	margin-right: 32px;
+	font-size: 15px;
+	transition: all 3s ease;
+}
+
+.form__input:focus{ /*при вводе в input*/
+	border-bottom: 1px solid #000;
+	outline: none;
+} 
+
+.form__btn{
+	border: none;
+	padding: 10px 0;
+}
+
+/*footer*/
+
+.footer{
+	padding: 90px 0;
+}
+
+.credits{
+	font-size: 11px;
+}
+
+.credits__rights{
+	margin-right: 140px;
+}
+
+.credits__author{
+	margin-right: 100px
+}
+
+.credits__policy{
+	color: #000;
+	border-bottom: 1px dotted #adadad;
+	padding-bottom: 3px;
+}
+
+.credits__policy:hover{
+	border-bottom: 1px dotted #000;
+}

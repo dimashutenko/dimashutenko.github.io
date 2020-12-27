@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-Интерфейсные ссылки\lab-13-Интерфейсные ссылки\bin\Debug\lab-13-Интерфейсные ссылки.exe
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-Интерфейсные ссылки\lab-13-Интерфейсные ссылки\bin\Debug\lab-13-Интерфейсные ссылки.pdb
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-Интерфейсные ссылки\lab-13-Интерфейсные ссылки\obj\x86\Debug\lab-13-Интерфейсные ссылки.exe
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-Интерфейсные ссылки\lab-13-Интерфейсные ссылки\obj\x86\Debug\lab-13-Интерфейсные ссылки.pdb

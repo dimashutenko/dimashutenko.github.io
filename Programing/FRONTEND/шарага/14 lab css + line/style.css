@@ -1,0 +1,53 @@
+h1{
+    font : 30px
+}
+h2{
+    font : 25px;
+    color: darkblue
+}
+h3{
+    font : 26px
+}
+h4{
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    color: green
+}
+h5{
+    font-size: 25px;
+    color: green
+}
+p2{
+    font-size: 25px;
+    color: green
+}
+p1{
+    font-size: 25px
+}
+p2{
+    font-size: 25px
+        color:green
+}
+p3{
+    font-size: 25px;
+    font-weight: bold
+}
+p4{
+    font-size: 25px;
+    font-weight: bold;
+    color:green
+}
+p5{
+    font-size:  25px;
+    font-style: italic
+}
+.line  {
+ border-top: 3px dashed #000;
+ height: 25px
+}
+.line1  {
+ width: 95% ;
+ height: 3px;
+    background-color: crimson
+}

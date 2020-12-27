@@ -1,0 +1,25 @@
+body {background:url(21.1.jpg) 100% 100% no-repeat;  background-size: cover}
+menu { padding: 15px; background: white; width: 250px; box-shadow: 2px 2px 8px rgba(0,0,0,.1);font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+position: fixed; margin-left:1%; z-index:5}
+menu h1 {font-size:25px; color: DarkRed; margin: 0 0 10px; padding: 0 5px; position: relative;}
+menu h1:after {content: ""; width:8px; height:8px; background:Magenta; position:absolute; right:7px; bottom:4px; 
+box-shadow: -10px -10px Magenta, 0 -10px Magenta, -10px 0 Magenta;}
+menu ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid rgba(0,0,0,.3);}
+menu li {margin: 12px 0 0 0px;}
+menu a {text-decoration:none; display:block; font-weight:bold; font-size:16px; color:Crimson; padding:5px; position:relative; transition: .3s linear;}
+menu a:after {content:"\f18e";font-family: FontAwesome; position: absolute; right: 5px; color: white;  transition: .2s linear;}
+menu a:hover {background:LightPink; color: white;}
+
+.back {margin-top:37.5%; height: 140px; padding: 5px; background: white; width: 260px; box-shadow: 2px 2px 8px rgba(0,0,0,.1); padding-left:15px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; position: fixed; margin-left:1%}
+.back a {text-decoration:none; display:block; font-size:16px; color: RosyBrown; padding:2px; line-height:0.7; 
+position:relative; transition: .3s linear;}
+.back a:after {content:" ";font-family: FontAwesome; position: absolute; right: 5px; color: LightYellow;  transition: .4s linear; line-height:0.7}
+.back a:hover {background:LightSalmon; color: LightYellow;}
+
+.box1{border:1px solid rgba(0,0,0,.3);  padding: 10px;  background: rgba(54, 25, 25, .5); width: 950px; margin-left:25%; }
+.lash{border-top: 2px solid Chartreuse; margin-left:3%}
+
+.stat{font-size:16px; color:Salmon; margin-top:3%; text-indent:5%; text-align:justify; padding: 8px }
+h2{font-size:26px; color: OrangeRed; font-weight: bold; text-transform:uppercase; line-height:0; text-indent:3%}
+h3{}

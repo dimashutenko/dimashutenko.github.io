@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1 - loops\loops\loops\bin\Debug\loops.exe
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1 - loops\loops\loops\bin\Debug\loops.pdb
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1 - loops\loops\loops\obj\x86\Debug\loops.exe
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1 - loops\loops\loops\obj\x86\Debug\loops.pdb
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1 - loops\loops\loops\obj\x86\Debug\loops.csprojResolveAssemblyReference.cache

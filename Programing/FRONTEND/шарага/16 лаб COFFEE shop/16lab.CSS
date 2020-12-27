@@ -1,0 +1,43 @@
+Body{
+    background-image: url(coffee.png)
+}
+.block1{
+    float: left;
+    background-color: lightyellow;
+    width: 230px;
+    height: 500px;
+}
+.block2{
+    float: left;
+    margin-left: 10px; 
+    background-color: lightyellow;
+    width: 100px;
+    height: 500px;
+}
+.block3{
+    float: left;
+    margin-left: 300px; 
+    background-color: lightyellow;
+    width: 615px;
+    height: 4000;
+}
+ul{
+    list-style-image: url(emoji_20.gif)
+}
+ul2{
+    list-style-type: circle
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-weight: 200;
+    font-size: 28px;
+}
+p1{
+    font-size: 34px;
+    text-align: right;
+}

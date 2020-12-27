@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 992px) {
+	/*h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 32px;
+	}
+
+	h3{
+		font-size: 19px;
+	}*/
+
+	.container{
+		width: 740px;
+	}
+}

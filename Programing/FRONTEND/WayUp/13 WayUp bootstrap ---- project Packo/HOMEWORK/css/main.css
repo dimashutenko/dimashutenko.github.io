@@ -1,0 +1,42 @@
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+body{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	font-family: Roboto, sans-serif;
+	background: #f5f5f5;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+a, input, button, .button{
+	outline: none;
+}
+a, input, button, .button:focus{
+	outline: none;
+}
+a, input, button, .button:active{
+	outline: none;
+}
+a, input, button, .button:hover{
+	outline: none;
+}
+.container{
+	
+}
+header{
+	height: 300px;
+	background: url(../img/HOME-assets/background1.jpg)no-repeat center 1px;
+}
+nav{
+	padding-top: 18px;
+}

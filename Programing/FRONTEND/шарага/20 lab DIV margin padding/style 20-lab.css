@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+.menu{
+    background-color: aliceblue;
+}
+.box1 {
+width:200px;
+height:200px;
+border:1px solid red;
+background-color:orange;
+float:left;
+}
+.box2 {
+width:200px;
+height:200px;
+border:1px solid red;
+background-color:orange;
+float:left;
+clear:both;
+}
+.lab12{
+border:1px solid lightblue;
+position:absolute;
+top:110px;
+right: 700px;
+margin: 10px;
+padding: 10px;
+}
+.lab14{
+border:1px solid cornflowerblue;
+position:absolute;
+top:110px;
+left:640px;
+margin: 10px;
+padding: 10px;
+}
+.li1{position: absolute;
+    right:900px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 32px;
+    color: darkmagenta;
+}
+.li2{
+    padding: 10px;
+    display: inline-block;
+    font-size: 40px;
+    color: darkmagenta;
+}
+.li3{
+    position: absolute;
+    right:300px;
+    padding: 30px;
+    display: inline-block;
+    font-size: 32px;
+    color: darkmagenta;
+}
+/** 12 lab **/
+h1{
+   text-decoration: underline;
+   color:darkblue; 
+   font-size:30px
+}
+h2{
+   color:blue; 
+   font-size:25px
+}
+h3{
+   color:purple; 
+   font-size:20px
+}
+h4{
+   color:green; 
+   font-size:19px
+}
+h5{
+   color:black; 
+   font-size:18px
+}
+h6{
+    font-weight: bold;
+   color:black; 
+   font-size:20px
+}
+h7{
+    font-weight: bold;
+   color:black; 
+   font-size:22px
+}
+/**   14 lab **/
+p2{
+    font-size: 25px;
+    color: green
+}
+p1{
+    font-size: 25px
+}
+p2{
+    font-size: 25px
+        color:green
+}
+p3{
+    font-size: 25px;
+    font-weight: bold
+}
+p4{
+    font-size: 25px;
+    font-weight: bold;
+    color:green
+}
+p5{
+    font-size:  25px;
+    font-style: italic
+}
+.line  {
+ border-top: 3px dashed #000;
+ height: 25px
+}
+.line1  {
+ width: 95% ;
+ height: 3px;
+    background-color: crimson
+}

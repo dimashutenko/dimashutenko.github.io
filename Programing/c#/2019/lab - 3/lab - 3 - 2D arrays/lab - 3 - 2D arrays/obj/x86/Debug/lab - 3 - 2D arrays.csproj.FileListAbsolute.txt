@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - 2D arrays\lab - 3 - 2D arrays\bin\Debug\lab - 3 - 2D arrays.exe
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - 2D arrays\lab - 3 - 2D arrays\bin\Debug\lab - 3 - 2D arrays.pdb
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - 2D arrays\lab - 3 - 2D arrays\obj\x86\Debug\lab - 3 - 2D arrays.exe
+C:\Dima\Programing\c#\2019\lab - 3\lab - 3 - 2D arrays\lab - 3 - 2D arrays\obj\x86\Debug\lab - 3 - 2D arrays.pdb

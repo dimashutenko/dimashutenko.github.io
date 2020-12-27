@@ -1,0 +1,527 @@
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 960px;
+	}
+	section {
+	    padding-top: 40px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.header {
+	    padding-top: 30px;
+	    padding-bottom: 40px;
+	}
+	.offer {
+	    margin-top: 90px;
+	}
+	.offer__left{
+		width: 550px;
+	}
+	.main-title__first {
+	    font-size: 70px;
+	}
+	.main-title__second{
+		margin-top: 13px;
+	}
+	.main-title__second, .main-title__third {
+	    font-size: 30px;
+	}
+	.offer__intro {
+	    line-height: 30px;
+	    font-size: 15px;
+	    width: 570px;
+	    padding-right: 20px;
+	}
+	.button {
+	    font-size: 15px;
+	    width: 270px;
+	    padding: 20px;
+	}
+	.offer__right {
+		width: 330px;
+	    margin: 20px 0 0 0;
+	}
+	.wheel {
+		margin: 0;
+		width: 330px;
+	}
+	.skills {
+	    margin-top: 60px;
+	}
+	.skills__item{
+		width: 30%;
+	}
+	.skills__title{
+		font-size: 20px;
+		letter-spacing: 0.19em;
+	}
+	p.skills__text{
+		font-size: 13px;
+	}
+	.reasons-wrap__img {
+	    width: 450px;
+	    padding: 70px 50px;
+	}
+	.reasons-wrap__img img{
+	    width: 350px;
+	}
+	.reasons-list {
+	    margin-top: 4px;
+	}
+	.reasons-list__index {
+	    font-size: 40px;
+	}
+	.reasons-list__content {
+	    margin-left: 25px;
+	    margin-top: 20px;
+	}
+	.reasons-list__title {
+	    font-size: 14px;
+	    letter-spacing: 0.15em;
+	}
+	.reasons-list__text {
+	    line-height: 20pt;
+	    margin-bottom: 0;
+	}
+	.details {
+		font-size: 13px;
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	}
+	.form__input{
+		width: 200px;
+		margin-right: 30px;
+	}
+	.footer {
+	    padding: 70px 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container{
+		width: 730px;
+		margin: 0 auto;
+	}
+	.header {
+	    padding-top: 28px;
+	    padding-bottom: 35px;
+	}
+	section {
+	    padding-top: 35px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	.offer {
+	    margin-top: 70px;
+	}
+	.offer__left{
+		width: 410px;
+	}
+	.main-title {
+	    margin-top: 0;
+	    margin-bottom: 35px;
+	}
+	.main-title__first {
+	    font-size: 55px;
+	    margin-right: 20px;
+	}
+	.main-title__second, .main-title__third {
+	    font-size: 23px;
+	}
+	.main-title__second{
+		margin-top: 9px;
+	}
+	.offer__intro {
+	    line-height: 28px;
+	    font-size: 15px;
+	    width: 410px;
+	    padding: 0;
+	}
+	.button {
+	    font-size: 14px;
+	    padding: 18px;
+	}
+	.offer_btn{
+		margin-top: 25px;
+	}
+	.offer__right {
+		width: 260px;
+	    margin: 30px 0 0 20px;
+	}
+	.wheel {
+		width: 260px;
+		margin: 0;
+	}
+	
+	.skills {
+	    margin-top: 50px;
+	}
+	.skills__item{
+		width: 30%;
+	}
+	.skills__title{
+		font-size: 18px;
+		letter-spacing: 0.15em;
+	}
+	p.skills__text{
+		font-size: 13px;
+	}
+	.reasons-wrap__img {
+	    width: 430px;
+	    padding: 70px 30px;
+	}
+	.reasons-wrap__img img{
+	    width: 320px;
+	}
+	.reasons-list {
+	    margin-top: 0;
+	}
+	.reasons-list__index {
+	    font-size: 30px;
+	}
+	.reasons-list__content {
+	    margin-left: 25px;
+	    margin-top: 13px;
+	}
+	.reasons-list__title {
+	    font-size: 14px;
+	    letter-spacing: 0.02em;
+	}
+	.reasons-list__text {
+	    line-height: 18pt;
+	    margin: 2px 0 5px 0;
+	}
+	.details {
+		font-size: 12px; 
+	    margin-top: 25px;
+	    margin-bottom: 40px;
+	}
+	.form{
+		display: block;
+	}
+	.form__input {
+	    width: 240px;
+	    margin-right: 30px;
+	    font-size: 13px;
+	}
+	.form__btn{
+		margin: 20px 0 0 30%;
+	}
+	.footer {
+	    padding: 70px 0;
+	}
+	.credits{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container{
+		width: 555px;
+	}
+	section {
+	    padding-top: 30px;
+	}
+	h2{
+		font-size: 21px;
+	}
+	.header {
+	    padding-top: 20px;
+	    padding-bottom: 25px;
+	}
+	nav{
+		font-size: 10px;
+	}
+	.logo{
+		margin-right: 0;
+	} 
+	.description{
+		margin-left: auto;
+	}
+	.offer {
+	    margin-top: 45px;
+	}
+	.offer__left{
+		width: 100%;
+	}
+	.main-title {
+		width: 350px;
+	    margin-top: 0;
+	    margin-bottom: 25px;
+	}
+	.main-title__first {
+	    font-size: 50px;
+	}
+	.main-title__second, .main-title__third {
+	    font-size: 18px;
+	}
+	.main-title__second{
+		margin-top: 10px;
+	}
+	.offer__intro {
+	    line-height: 26px;
+	    font-size: 14px;
+	    width: 300px;
+	}
+	.button {
+	    font-size: 12px;
+	    padding: 12px;
+	}
+	.offer_btn{
+		margin-top: 25px;
+		width: 60%
+	}
+	.offer__right {
+	    margin: 70px 40px 0 -40px;
+	}
+	.wheel {
+		margin: 0;
+		width: 200px;
+	}
+	.skills {
+	    margin-top: 50px;
+	}
+	.skills__item{
+		width: 30%;
+	}
+	.skills__title{
+		font-size: 15px;
+		letter-spacing: 0.1em;
+		margin-bottom: 10px;
+	}
+	p.skills__text{
+		font-size: 12px;
+	}
+	.reasons-wrap__img {
+	    display: none;
+	}
+	.reasons-title:before {
+	    content: "";
+		background: url(../img/devices.png) no-repeat;
+		background-size: 400px 370px;
+		display: block;
+		clear: both;
+		width: 435px;
+		height: 370px;
+		margin: -50px 15% 20px 15%;
+	}
+	.reasons-list {
+	    margin-top: 10px;
+	}
+	.reasons-list__index {
+	    font-size: 30px;
+	}
+	.reasons-list__content {
+	    margin-left: 25px;
+	    margin-top: 13px;
+	}
+	.reasons-list__title {
+	    font-size: 14px;
+	    letter-spacing: 0.02em;
+	}
+	.reasons-list__text {
+	    line-height: 18pt;
+	    margin: 2px 0 5px 0;
+	}
+	.details {
+		font-size: 12px; 
+	    margin-top: 25px;
+	    margin-bottom: 40px;
+	}
+	.form{
+		display: block;
+	}
+	.form__input {
+	    width: 250px;
+	    margin-right: 30px;
+	    font-size: 13px;
+	}
+	.form__btn{
+		margin: 20px 0 0 30%;
+	}
+	.footer {
+	    padding: 70px 0;
+	}
+	.credits{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container{
+		width: 320px;
+	}
+	section {
+	    padding-top: 30px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.header {
+	    padding-top: 0;
+	    padding-bottom: 15px;
+	}
+	.mail{
+		display: none;
+	}
+	.logo{
+	font-size: 10px;
+	margin-right: 0;
+	} 
+	.description{
+		font-size: 10px;
+		margin-left: auto;
+	}
+	.offer{
+		display: block;
+		margin-top: 30px;
+	}
+	.offer__left{
+		width: 100%;
+	}
+	.main-title{
+		display: block;
+		text-align: center;
+	}
+	.main-title__first {
+		font-size: 40px;
+		margin-right: 0;
+	}
+	.main-title__second, .main-title__third {
+	    font-size: 20px;
+	    margin: 0;
+	}
+	.offer__intro{
+		width: 100%;
+		padding: 0 10px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.offer_btn{
+		display: block;
+		margin: 160px auto 0 auto;
+		width: 50%;
+	}
+	.button {
+	    font-size: 10px;
+	    padding: 10px;
+	}
+	.offer__right {
+	    margin: 30px auto 0 ;
+	    width: 260px;
+	}
+	.wheel {
+		margin: 0;
+		width: 260px;
+	}
+	.skills {
+	    margin-top: 20px;
+	    display: block;
+	}
+	.skills__item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.skills__title{
+		font-size: 14px;
+		letter-spacing: 0.09em;
+		margin-bottom: 0;
+	}
+	p.skills__text{
+		font-size: 12px;
+		line-height: 16pt;
+		width: 100%;
+		margin:0 0 15px 0;
+	}
+	.reasons-title:before{   
+		content: "";
+		background: url(../img/devices.png) no-repeat;
+		background-size: 220px 200px;
+		display: block;
+		clear: both;
+		width: 100%;
+		height: 250px;
+		margin: 10px 40px;
+	}
+	.reasons-wrap__img {
+	    display: none;
+	}
+	.reasons-list {
+	    margin-top: 0;
+	}
+	.reasons-list__index {
+	    font-size: 25px;
+	}
+	.reasons-list__content {
+	    margin-left: 15px;
+	    margin-top: 8px;
+	}
+	.reasons-list__title {
+	    font-size: 13px;
+	    letter-spacing: 0.018em;
+	}
+	.reasons-list__text {
+	    line-height: 15pt;
+	    margin: 2px 0 5px 0;
+	    font-size: 12px;
+	}
+	.reg__title{
+		justify-content: center;
+	}
+	.suggestion{
+		width: 100%;
+		line-height: 20pt;
+		margin-top: 15px;
+		text-align: center;
+		font-size: 13px;
+		
+	}
+	.details {
+		font-size: 12px; 
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	    text-align: center;
+	}
+	.form{
+		display: block;
+		justify-content: center;
+		margin-top: 15px;
+	}
+	.inputs{
+		display: block;
+	}
+	.form__input {
+	    width: 50%;
+	    margin: 30px;
+	    font-size: 12px;
+	    margin-left: 25%;
+	}
+	::-webkit-input-placeholder {
+	text-align:center;
+	}
+	.form__btn{
+		margin: 0 25%;
+		width: 50%;
+	}
+	.footer {
+	    padding: 40px 0 30px 0;
+	}
+	.credits{
+		font-size: 7px;
+		display: block;
+	}
+	.credits__rights{
+		margin: 0 25% 5% 12%;
+	}
+
+	.credits__author{
+		margin-right: 0;
+	}
+
+	.credits__policy{
+		display: block;
+		margin: 0 32% 0 33%;
+	}
+}

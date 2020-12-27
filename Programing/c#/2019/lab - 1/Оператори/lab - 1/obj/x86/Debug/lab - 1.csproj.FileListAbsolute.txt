@@ -1,0 +1,8 @@
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1\bin\Debug\lab - 1.exe
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1\bin\Debug\lab - 1.pdb
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1\obj\x86\Debug\lab - 1.exe
+C:\Dima\Programing\c#\2019\lab - 1\lab - 1\obj\x86\Debug\lab - 1.pdb
+C:\Dima\Programing\c#\2019\lab - 1\Оператори\lab - 1\obj\x86\Debug\lab - 1.exe
+C:\Dima\Programing\c#\2019\lab - 1\Оператори\lab - 1\obj\x86\Debug\lab - 1.pdb
+C:\Dima\Programing\c#\2019\lab - 1\Оператори\lab - 1\bin\Debug\lab - 1.exe
+C:\Dima\Programing\c#\2019\lab - 1\Оператори\lab - 1\bin\Debug\lab - 1.pdb

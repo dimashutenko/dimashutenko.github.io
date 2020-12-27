@@ -1,0 +1,234 @@
+body{
+	font-family: Tahoma, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #2f383b;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+div, section, form, button, span, p{
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 0;
+
+}
+.header{
+	background: #4e8598;
+	color: #fff;
+	padding-top: 54px;
+	padding-bottom: 57px;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+.offer{
+	margin-top: 180px;
+	text-align: center;
+}
+.offer__title{
+	width: 607px;
+	margin: 0 auto;
+	font-size: 27px;
+}
+.button{
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px 30px 20px 35px;
+	border-radius: 30px;
+	text-decoration: none;
+	display: block;
+	width: 155px;
+}
+.offer__button{
+	border: 2px solid white;
+	margin: 25px auto 175px auto;
+}
+.ScrollDown{
+	display: block;
+	margin: 0 auto;
+}
+.offer__button:hover{
+	color: #4e8598;
+	background: #fff;
+}
+.section{
+	padding: 78px 0;
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 80px;
+	font-size: 26px;
+	font-weight: bold;
+}
+.mission{
+	width: 400px;
+	float: left;
+	margin-right: 90px;
+}
+.secondary-title{
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.secondary-title:after{
+	content: "";
+	display: block;
+	margin-top: 10px;
+	background: #4e8598;
+	width: 72px;
+	height: 3px;
+}
+.mission__text{
+	display: block;
+	width: 405px;
+	line-height: 27px;
+}
+.merits{
+	width: 450px;
+	float: left;
+}
+ul.honors{
+	padding-inline-start: 0px;
+}
+.honors__item{
+	padding: 8px 0px 42px 62px;
+}
+.honors__title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #4e8598;
+	margin-right: 26px;
+}
+.honors__text{
+	font-size: 15px;
+	color: #b0b2b3;
+}
+.honors__item_bug{
+	background: url("../img/bug.png") no-repeat left 0;
+}
+.honors__item_bell{
+	background: url("../img/bell.png") no-repeat left 0;
+}
+.honors__item_flash{
+	background: url("../img/storm.png") no-repeat 10px 0;
+}
+.honors__item_photo{
+	background: url("../img/camera.png") no-repeat left 0;
+}
+.circle{
+	display: block;
+	float: left;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 2px solid #2f383b;
+	color: #2f383b;
+	font-size: 30px;
+	margin: 0 260px 0 0;
+}
+.circle-1{
+	margin-left: 100px;
+}
+.circle-3{
+	margin-right: 0;
+}
+.circle__text{
+	padding: 17px 27px;
+}
+.circle:hover{
+	background: #2f383b;
+	color: #fff;
+}
+.description{
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f383b;
+	/*display: block;
+	float: left; why they are not inherited*/
+}
+.description-1{
+	margin: 17px 163px 0 55px;
+	display: block;
+	float: left;
+}
+.description-2{
+	margin: 17px 137px 0 0;
+	display: block;
+	float: left;
+}
+.description-3{
+	margin: 17px 0 0 0;
+	display: block;
+	float: left;
+}
+.opinion{
+	margin: 263px auto 73px auto;
+	clear: both; /*убираем подсос float*/
+	text-align: center;
+}
+.opinion__title{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 27px;
+}
+.opinion__text{
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 22px;
+}
+.opinion__button{
+	background: #fff;
+	margin: 26px auto 75px auto;
+	border: 2px solid #2f383b;
+	color: #2f383b;
+}
+.opinion__button:hover{
+	background: #2f383b;
+	color: #fff;
+}
+.footer{
+	background: #2f383b;
+	padding: 46px 0;
+}
+.footer__text{
+	display: block;
+	float: right;
+	font-size: 13px;
+	color: #fff;
+}
+.rights{
+	color: #8a8d8e;
+	float: left;
+}
+.developer{
+	margin-left: 31%;
+	color: #8a8d8e;
+	float: left;
+}
+.policy{
+	border-bottom: 1px dashed #fff;
+}

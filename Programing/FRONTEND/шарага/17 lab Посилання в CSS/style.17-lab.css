@@ -1,0 +1,42 @@
+Body{
+    background-image: url(bokeh-cover-bg.jpg)
+}
+h0{
+    font-size:  45px;
+    text-align: center;
+    color: azure;
+}
+h1{
+    font-size:  40px;
+    text-align: center;
+    color: azure;      
+}
+h2{
+    font-size:  30px;
+    font-weight: 300;
+    color: azure;
+}
+h3 {
+    font-size: 35px;
+    color: azure;  
+}
+.line{
+    background-color: ghostwhite;
+    height: 2px;
+}
+.line2{
+    background-color: mediumvioletred;
+    height: 3px;
+}
+a:link {
+    color: white;
+    text-decoration:none;
+}
+a:visited {
+    color:antiquewhite;
+}
+a:hover { 
+    color:mediumvioletred; 
+    text-decoration:none;
+}
+

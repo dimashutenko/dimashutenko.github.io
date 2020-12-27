@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Тренировка jQuery</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <button class="btn btn-primary btn-lg" data-parent ="Кнопка в третьем экране" data-toggle="modal" data-target="#myModal">Я открываю попап</button>
+    
+	<form action="success.php" class="js-form" id="popupResult">
+        <input type="text" name="name" required="" placeholder="Введите имя"  class="form-control form__field">
+        <input type="text" name="email" required="" id="getGA" placeholder="Введите E-mail"  class="form-control form__field">
+        <input type="text" name="tel" required="" placeholder="Введите телефон"  class="form-control form__field">
+
+        
+        <label for="first">Первое значение</label>
+        <input type="checkbox" id="first" name="check[]" value="Первое значение"><br>
+        <label for="second">Второе значение</label>
+        <input type="checkbox" id="second" name="check[]" value="Второе значение"><br>
+        
+        <label for="radio1">Радио 1</label>
+        <input type="radio" id="radio1" name="radio" value="Первое радио"><br>
+        <label for="radio2">Радио 2</label>
+        <input type="radio" id="radio2" name="radio" value="Второе радио"><br>
+        <label for="radio3">Радио 3</label>
+        <input type="radio" id="radio3"  name="radio" value="Третье радио"><br>
+        
+        <button class="btn__red__bottom act font-bold" data-submit>Принять участие в Марафоне!</button>
+     	<p class="light f13px light f13px">Ваши данные под защитой. Телефон необходим лишь для SMS-уведомления о начале мастер-классов</p>
+    </form>
+    
+    <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form action="#">
+				<input type="text" name="target" >
+				<input type="text" name="name" placeholder="Имя">
+				<button type="submit">Отправить</button>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+
+	<div id="loader">
+		<img src="img/ripple.svg">
+	</div>
+	
+	<div id="overlay">
+    		<div id="thx">
+    			Спасибо! Мы обязательно вам перезвоним
+    		</div>
+   	</div>
+
+	
+	<script src="//code.jquery.com/jquery-latest.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

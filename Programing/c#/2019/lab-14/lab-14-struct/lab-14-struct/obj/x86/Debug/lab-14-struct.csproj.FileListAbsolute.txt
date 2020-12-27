@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab-14\lab-14-struct\lab-14-struct\bin\Debug\lab-14-struct.exe
+C:\Dima\Programing\c#\2019\lab-14\lab-14-struct\lab-14-struct\bin\Debug\lab-14-struct.pdb
+C:\Dima\Programing\c#\2019\lab-14\lab-14-struct\lab-14-struct\obj\x86\Debug\lab-14-struct.exe
+C:\Dima\Programing\c#\2019\lab-14\lab-14-struct\lab-14-struct\obj\x86\Debug\lab-14-struct.pdb

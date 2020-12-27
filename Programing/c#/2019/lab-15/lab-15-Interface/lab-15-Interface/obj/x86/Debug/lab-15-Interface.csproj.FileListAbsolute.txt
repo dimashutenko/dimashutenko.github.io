@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interface\lab-15-Interface\bin\Debug\lab-15-Interface.exe
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interface\lab-15-Interface\bin\Debug\lab-15-Interface.pdb
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interface\lab-15-Interface\obj\x86\Debug\lab-15-Interface.exe
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interface\lab-15-Interface\obj\x86\Debug\lab-15-Interface.pdb
+C:\Dima\Programing\c#\2019\lab-15\lab-15-Interface\lab-15-Interface\obj\x86\Debug\lab-15-Interface.csprojResolveAssemblyReference.cache

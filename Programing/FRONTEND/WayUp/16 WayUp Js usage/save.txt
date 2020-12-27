@@ -1,0 +1,23 @@
+$(window).scroll(function() {
+        if ($(this).scrollTop() > 1){
+            $(".menu__item").addEventListener("mouseleave", function() {
+                alert('hi');
+                $(".menu__item").style.animation='myframes10_sticky 0.25s ease-in-out 0s forwards';
+        });
+            $(".menu__item").addEventListener("mouseover", function() {
+                alert('hi');
+                $(".menu__item").style.animation='myframes1_sticky 0.25s ease-in-out 0s forwards';
+            });
+        }
+        else{
+            $(".menu__item").addEventListener("mouseleave", function() {
+                alert('hi');
+                $(".menu__item").style.animation='myframes10 0.25s ease-in-out 0s forwards';
+            });
+            $(".menu__item").addEventListener("mouseover", function() {
+                alert('hi');
+                $(".menu__item").style.animation='myframes1 0.25s ease-in-out 0s forwards';
+            });
+        }
+
+    });

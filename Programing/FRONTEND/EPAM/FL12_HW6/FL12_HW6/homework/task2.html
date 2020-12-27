@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/task2.js"></script>
+    <title>Task 2</title>
+</head>
+<body style="text-align: center;">
+    <h3>Identifying triangle type</h3>
+    <script>
+    	if(reload==true){
+			window.location.reload();
+		}
+    	document.write("a="+a);
+    	document.write(" b="+b);
+    	document.write(" c="+c);
+    </script>
+    <h3 style="padding-top: 15px">Existance</h3>
+    <script>
+    	if(valid==false){
+			alert("Triangle doesn't exist. Try again ^_^");
+			console.log("Triangle doesn’t exist");
+			window.location.reload();
+		}
+		else{
+			document.write("Triangle with such sides exists");
+		}
+    </script>
+    <h3 style="padding-top: 15px">Type</h3>
+    <script>
+    	if (a==b & a==c & b==c) {
+			document.write("Triangle is equivalent");
+			console.log("Equilateral triangle");
+		}
+		else if (a==b & a!=c || a==c & b!=c || b==c & b!=a) {
+			document.write("Triangle is isosceles");
+			console.log("Isosceles triangle");
+		}
+		else {
+			document.write("Triangle is scalene");
+			console.log("Scalene triangle");
+		}
+    </script>
+</body>
+</html>

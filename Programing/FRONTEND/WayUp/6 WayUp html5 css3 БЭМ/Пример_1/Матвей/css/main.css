@@ -1,0 +1,260 @@
+/*-----------specification-----------*/
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	color: #2f383b;
+	margin: 0;
+	padding: 0;
+}
+
+div, ul, li, p, form,
+button, b, a, input,
+textarea, img {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding: 80px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+	content: '';
+	width: 100%;
+	display: table;
+}
+
+.button {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 100px;
+	border: 1px solid white;
+	width: 215px;
+	margin-top: 40px;
+	color: #fff;
+	text-decoration: none;
+	padding: 17px 0;
+	margin: 30px auto 0;
+}
+/*------------------------------------*/
+
+
+
+/*---------------Header---------------*/
+.header {
+	background: #4e8598;
+	color: #fff;
+	padding: 54px 0 54px 0;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+.offer {
+	margin-top: 180px;
+	text-align: center;
+}
+
+.offer__title {
+	font-size: 27px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.offer__button:hover {
+	background: white;
+	color: #4e8598;
+}
+
+.arrow {
+	margin: 175px auto 0;
+
+}
+/*------------------------------------*/
+
+
+/*---------------About---------------*/
+.section-title {
+	font-size: 26px;
+	text-align: center;
+}
+
+.mission {
+	float: left;
+	width: 380px;
+}
+
+.secondary-title {
+	font-size: 22px;
+	margin-top: 85px;
+}
+
+.secondary-title:after {
+	content: '';
+	display: block;
+	width: 72px;
+	height: 3px;
+	background: #4e8598;
+	margin-top: 10px;
+	margin-bottom: 23px;
+}
+
+.mission__text {
+	font-size: 15px;
+	line-height: 23px;
+}
+
+.mission__text:last-child {
+	margin-top: 30px;
+}
+
+.merit {
+	width: 450px;
+	float: right;
+}
+
+.honors__item {
+	padding: 10px 0 10px 64px;
+	margin-bottom: 22px;
+}
+
+.honors__name {
+	color: #4e8598;
+	font-weight: bold;
+	font-size: 16px;
+	float: left;
+	margin-right: 27px;
+}
+
+.honors__description {
+	color: #9ba0a1;
+	font-size: 15px;
+}
+
+.honors__item_bug {
+	background: url(../img/bug.png) no-repeat left center;
+}
+
+.honors__item_bell {
+	background: url(../img/bell.png) no-repeat 2px center;
+}
+
+.honors__item_lightning {
+	background: url(../img/storm.png) no-repeat 9px center;
+}
+
+.honors__item_camera {
+	background: url(../img/camera.png) no-repeat left center;
+}
+/*------------------------------------*/
+
+
+
+/*---------------Why---------------*/
+
+.pluses {
+	margin: 72px auto 0;
+	width: 940px;
+}
+
+.pluses__plus {
+	float: left;
+	width: 313px;
+}
+
+.pluses__circle {
+	width: 75px;
+	height: 75px;
+	border: 1px solid #2f383b;
+	border-radius: 100px;
+	text-align: center;
+	padding-top: 17px;
+	font-size: 30px;
+	margin: 0 auto;
+}
+
+.pluses__circle:hover {
+	color: white;
+	background: #2f383b;
+}
+
+.pluses__desc {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.suspition {
+	margin: 61px auto 0;
+	text-align: center;
+	width: 405px;
+}
+
+.suspition__title {
+	font-size: 22px;
+	margin-bottom: 28px;
+}
+
+.suspition__text {
+	font-size: 14px;
+}
+
+.suspition__button {
+	background: #2f383b;
+}
+
+.suspition__button:hover {
+	color: #2f383b;
+	background: white;
+	border: 1px solid #2f383b;
+}
+/*------------------------------------*/
+
+
+
+/*---------------Footer---------------*/
+.footer {
+	color: #a1a5a7;
+	background: #2f383b;
+	font-size: 13px;
+}
+
+.info {
+	padding: 50px 0 53px 0;
+}
+
+.info__protected {
+	float: left;
+	margin-right: 285px;
+}
+
+.info__my-name {
+	float: left;
+}
+
+.info__privacy {
+	float: right;
+	color: #f0f1f1;
+	border-bottom: 1px dotted #f0f1f1;
+	text-decoration: none;
+}
+/*------------------------------------*/

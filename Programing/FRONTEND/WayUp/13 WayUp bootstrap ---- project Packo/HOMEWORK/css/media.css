@@ -1,0 +1,23 @@
+@media screen and (min-width: 576px) {
+	.container{
+		max-width: 550px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.container{
+		max-width: 600px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container{
+		max-width: 964px;
+	}
+}
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1200px;
+	}
+	header{
+	height: 720px;
+	}
+}

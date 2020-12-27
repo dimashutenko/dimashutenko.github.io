@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Разбор двояких моментов</title>
+	<style>
+		body {
+			font-family: Arial;
+		}
+		
+		h2 {
+			font-size: 19px;
+			font-family: Tahoma;
+			line-height: 1.7em;
+			margin-bottom: 20px;
+		}
+
+		h3 {
+			font-size: 17px;
+			font-family: Tahoma;
+			line-height: 1.7em;
+			margin-bottom: 20px;
+			color: grey;
+		}
+
+		.rule {
+			width: 500px;
+			margin: 0px auto;
+			font-size: 14px;
+			line-height: 1.6em;
+			margin-bottom: 50px;
+		}
+
+		.added {
+			margin-top: 60px;
+		}
+
+		.usefull-links {
+			display: block;
+	    	padding: 0px;
+		}
+
+		.usefull-links li {
+			margin-bottom: 10px;
+			display: block;
+		}
+
+		a {
+			color: #31711c;
+		}
+
+		code {
+			background: #e0e0e0;
+		    padding: 3px 4px;
+		    margin: 0px 2px;
+		    color: #737373;
+		    border-radius: 2px;
+		    font-size: 13px;
+		}
+		code:before {
+			content:'<';
+		}
+		code:after {
+			content:'>';
+		}
+		code.n:before, code.n:after {
+			content:'';
+		}
+	</style>
+</head>
+<body>
+	<section class="rule">
+		<h2>
+			1. Какой тег использовать для кнопок?
+		</h2>
+		<p>
+			Для обычных ссылок целесообразнее использовать тег <code>a</code>. Для кнопок, функционал которых определяет скриптами Javascript, можно использовать теги <code>a</code>, <code>button</code>, <code>div</code>, <code>span</code> и др.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			2. Оборачивать ли главное меню сайта в тег <code>nav</code>?
+		</h2>
+		<p>
+			Да, оборачиваем, получая структуру: <code class="n">nav > ul > li</code>
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			3. Что именно оборачивать в тег <code>header</code>?
+		</h2>
+		<p>
+			Оборачиваем весь первый экран сайта, лендинга. Внутри <code>header</code> могут находиться заголовки, параграфы, меню и др.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			4. Нужен ли заголовок внутри контейнера <code>footer</code>, чтобы верстка считалась валидной?
+		</h2>
+		<p>
+			Нет, не обязателен.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			5. Сколько заголовков <code>h</code> может быть внутри <code>section</code>?
+		</h2>
+		<p>
+			Спецификация точно не описывает разрешенное количество заголовков внутри секции. Это тот момент, когда вы можете свободно использовать для заголовков, как теги <code>h</code>, так и обычные <code>div</code> (или <code>p</code>). Многие разработчики описывают менее значимые заголовки на странице обычными тегами <code>div</code> или <code>p</code>. Это также не является ошибкой. Самыми важными являются теги <code>h1</code> и <code>h2</code>, так как именно они имеют наибольший вес для SEO.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			6. Я вижу текстовый блок в макете, состоящий из одной-двух-трех строк. Каким тегом мне его сверстать?
+		</h2>
+		<p>
+			Вы можете использовать теги <code>p</code>, <code>div</code>,<code>h</code> (если блок можно квалифицировать как заголовок).
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			7. Использовать ли в верстке тег <code>hgroup</code>?
+		</h2>
+		<p>
+			Нет, совсем недавно он был упразднен :)
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			8. Я слышал(-а) об html-теге <code>main</code> - где его нужно использовать?
+		</h2>
+		<p>
+			Его можно использовать для обозначения главного контента на странице. Не должен содержать в себе тегов <code>header</code>, <code>footer</code>, <code>nav</code>, <code>aside</code>, <code>form</code>. По причине того, что в большинстве современных сайтов, по сути, весь контент страницы является главным, кроме шапки и футера, он используется редко. Верстка без тега <code>main</code> также считается валидной.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			9. Какой резделитель мне использовать в наименовании классов и айди: "минус" или "нижнее подчеркивание"?
+		</h2>
+		<p>
+			Зависит полностью от предпочтений разработчика. Подойдя к разбору методолгии БЭМ мы увидим некоторые правила общего рекомендательного характера в отношении этого вопроса. Я рекомендую наименовать классы и айди со знаком "минус".
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			10. Если я вижу повторяющийся элемент на странице (<a href="https://www.dropbox.com/s/kkm8bpytldjfwm0/template.jpg?dl=0">пример</a> во второй секции) - для верстки мне использовать список <code>ul</code> или обычные контейнеры <code>div</code>?
+		</h2>
+		<p>
+			С семантической точки зрения, данный повторяющийся элемент больше похож на список. Однако, валидным считается как верстка данного блока с использованием <code>ul</code>, так и при помощи <code>div</code>?
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			11. Когда мне использовать тег <code>section</code>, а когда <code>article</code>?
+		</h2>
+		<p>
+			Это одна из больных тем с приходом стандарта HTML5 :) Тег <code>section</code> должен оборачивать семантически единый блок контента. Может иметь внутри заголовки и неограниченное количество блоков. Тег <code>article</code> имеет то же самое назначение, однако с одной поправкой: его можно вынести за пределы страницы и смысл страницы не пострадает. Секцию <code>section</code> можно лишь переместить на любое место внутри страницы (если убрать секцию со страницы совсем, преполагается, что страница потеряет смысл). 
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			12. Тег <code>section</code> может быть внутри <code>article</code> и наоборот?
+		</h2>
+		<p>
+			Совершенно верно. Тег <code>section</code> не обязательно должен оборачивать лишь главные разделы на страницы, как мы это обычно делаем. К примеру, у статьи в блоге может быть основной текст и блок под текстом, в котором есть информация об авторе, дате, кнопки "поделиться". Рационально, оба этих блока (блок основного контента и блок с доп. информацией) оформить в <code>section</code>.
+		</p>
+	</section>
+	<section class="rule">
+		<h2>
+			13. Тегом <code>p</code> можно верстать не только параграфы?
+		</h2>
+		<p>
+			Да, и это не считается семантически неверным или невалидным. Обычно, в <code>p</code>, как мы определили в п.6, могут находиться либо параграфы текста, либо немногострочные блоки с текстом. Например, телефон в шапке с небольшой подписью "Звонить с 8:00 до 22:00". Кто-то верстает подобные блоки с использованием <code>p</code>. Я предпочитаю, к примеру, тег <code>div</code>.
+		</p>
+	</section>
+	<section class="rule added">
+		<h3>
+			Дополнительные ссылки
+		</h3>
+		<ul class="usefull-links">
+			<li>
+				<a href="https://validator.w3.org/">validator.w3.org</a>
+			</li>
+			<li>
+				<a href="https://web-standards.ru/articles/avoiding-html5-mistakes/">web-standards.ru/articles/avoiding-html5-mistakes</a>
+			</li>
+			<li>
+				<a href="http://front-end.su/2015/11/01/div-or-section-or-article/">front-end.su/2015/11/01/div-or-section-or-article</a>
+			</li>
+		</ul>
+	</section>
+</body>
+</html>

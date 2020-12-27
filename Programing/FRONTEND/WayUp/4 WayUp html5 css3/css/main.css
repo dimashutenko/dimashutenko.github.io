@@ -1,0 +1,206 @@
+body{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after{  /*псевдоклас который прилягает к любому блоку(есл добавить clearfix в класс) (after- в конце, before - в начале*/
+	content: "";
+	display: block;
+	clear: both;
+	width: 100%;
+}
+div, p, form, button, b, a, input {
+	box-sizing: border-box;
+}
+.header{
+	background: #22a2ec;
+	color: white;
+	font-size: 15px;
+	padding: 32px 35px; 
+}
+.logo{
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+nav{
+	float: left;
+	margin: 0 124px;
+}
+.menu li{
+	float: left;
+}
+ul {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	display: block;
+	padding: 0px 10px;
+	margin: 0;
+}
+.menu a{
+	color: white;
+}
+.telephone{
+	float: right;
+	margin-right: 47px;
+	font-size: 18px;
+}
+.card-type-1{
+	float: left;
+	width: 356px;
+	padding: 31px 32px;
+}
+.card-type-1-1{
+	border: 1px solid lightgrey;
+	margin-left: 44px;
+	margin-right: 60px
+}
+.card-type-1-2{
+	padding: 28px 32px 15px 32px;
+	border: 4px solid lightgrey;
+	margin-right: 60px
+}
+.card-type-1-3{
+	padding: 30px 32px 15px 32px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+}
+h1{
+	margin-left: 45px;
+	font-size: 29px;
+}
+h2{
+	margin-left: 45px;
+	margin-top: 46px;
+	margin-bottom: 38px;
+	font-size: 23px;
+}
+h3{
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	color: #c0ddee;
+}
+h4{
+	padding: 0;
+	margin:0;
+	font-size: 18px
+}
+p{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.continue-reading{
+	display: inline-block; /*делаем с <а> блочный тип для добавления margin*/
+	margin-top: 14px;
+	font-size: 13px;
+	color: #22a2ec;
+}
+input{
+height: 45px;
+width: 239px;
+display: block;
+color: #d6d6d6;
+margin-bottom: 12px;
+}
+.Form{
+	float: left;
+	margin-left: 23px;
+	margin-right: 0;
+}
+textarea{
+	padding-top: 15px;
+	padding-left: 20px;
+	width: 350px;
+	height: 89px;
+	color: #d6d6d6;
+	margin-bottom: 24px;
+}
+button{
+	display: block;
+	padding: 16px 39px 12px 45px;
+	background: #ebce0d;
+	border: none;
+	margin-bottom: 20px;
+}
+p.margin-top-off{
+	margin-top: 0;
+}
+p.text12px{
+	margin-top: 0;
+	font-size: 12px;
+	color: #84898d;
+}
+.card-type-2{
+	margin-left: 59px;
+	float: left;
+	width: 770px;
+	padding: 30px 40px 26px 39px;
+	background: #184c6b;
+	border-radius: 7px;
+	margin-bottom: 110px;
+}
+p.card-type-2-text{
+	margin-top: 0;
+	width: 320px;
+	font-size: 15px;
+	color: #c0ddee;
+	line-height: 15pt;
+}
+.card-type-2-left-side{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+.card-type-2-right-side{
+	float: left;
+	width: 311px;
+}
+.for-image{
+	margin-top: 50px;
+	margin-bottom: 13px;
+}
+.container-footer{
+	float: left;
+	margin-top: 43px;
+	background: #22a2ec;
+	width: 100%;
+}
+p.footer-white-text{
+	margin: 29px 50px 30px 37px;
+	font-size: 13px;
+	color: #fff;
+}
+p.footer-white-text-left{
+	float: left;
+}
+p.footer-white-text-right{
+	float: right;
+}
+a.button{
+	font-size: 12px;
+	color: white;
+	padding: 12px 20px;
+	text-decoration: none;
+	border: 1px solid white;
+	margin-top: 14px;
+	margin-right: 70px;
+	float: left;
+}
+a.button-1{
+	border-radius: 6px;
+}
+a.button-2{
+	border-radius: 20px;
+}
+p.footer-blue-text{
+	float: left;
+	font-size: 12px;
+	color: #22a2ec;
+	background: #fff;
+	padding: 14px 24px;
+}

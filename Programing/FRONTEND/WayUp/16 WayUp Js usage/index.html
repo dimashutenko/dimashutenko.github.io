@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="https://kit.fontawesome.com/80a7e9f90a.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css"> 
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="shortcut icon" href="img/js.jpg" type="image/x-icon">
+	<title>Lab</title>
+</head>
+<body class="no-scroll">
+	<div id="preloader" class="preloader">
+		<div id="circularG">
+			<div id="circularG_1" class="circularG"></div>
+			<div id="circularG_2" class="circularG"></div>
+			<div id="circularG_3" class="circularG"></div>
+			<div id="circularG_4" class="circularG"></div>
+			<div id="circularG_5" class="circularG"></div>
+			<div id="circularG_6" class="circularG"></div>
+			<div id="circularG_7" class="circularG"></div>
+			<div id="circularG_8" class="circularG"></div>
+		</div>
+	</div>
+	<nav class="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+					<a class="logo d-flex justify-content-between" href="#">
+						<img src="img/rabbit1.gif" alt="logo" class="logo__img">
+						<div class="logo__text d-flex align-items-center">
+							<h6>
+								Практический 
+							</h6>
+							<span>
+								WAYUP-Спринт
+							</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-5 d-none d-lg-block menu-collapse">
+					<ul class="menu d-flex justify-content-around align-items-center">
+						<li class="menu__item" id="menu__item"><a href="#header">Начальная</a></li>
+						<li class="menu__item" id="menu__item"><a href="#timer">Таймер</a></li>
+						<li class="menu__item" id="menu__item"><a href="#paralax">Паралакс</a></li>
+						<li class="menu__item" id="menu__item"><a href="#sprint3">В разработке</a></li>
+					</ul>
+				</div>
+				<div class="col-4 col-sm-4 col-lg-3 col-xl-4 phone-segment">
+					<div class="phone d-flex justify-content-end align-items-center">
+						<div class="phone__icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="phone__number">
+							+38 063 515-76-65
+						</div>
+					</div>
+				</div>
+				<div class="col-3 col-sm-2 d-flex jusify-content-center d-lg-none menu-bars">
+					<button class="menu-opener">
+						<i class="fa fa-navicon"></i>
+					</button>
+				</div>
+			</div>
+		</div>	
+	</nav>
+	<header class="header hidden" id="header">
+		<div class="container">
+			<div class="offer" id="offer">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 offer__left animated fadeInLeft">
+						<div class="offer__intro">
+							Спринт. День 1
+						</div>
+						<div class="offer__main">
+							<h1 class="offer__title">
+								Создание функционального первого экрана сайта
+							</h1>
+							<p class="offer__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua
+							</p>
+						</div>
+						<a href="#timer" class="offer__btn">
+							Узнать больше
+						</a>	
+					</div>
+					<div class="boy d-none d-md-block animated fadeInUp"></div>
+					<div class="offer__right d-flex col-12 col-md-6 col-lg-4 ml-md-auto animated fadeInRight" id="registration-form">
+						<form action="#" class="form">
+							<i class="fa fa-paper-plane form__icon"></i>
+							<div class="form__title">
+								Заполните форму,
+								<span class="space1"></span>
+								чтобы стать
+								<span class="space2"></span>
+								веб-верстальщиком
+							</div>
+							<p class="form__description">
+								Это быстро и не больно
+							</p>
+							<input type="text" name="name" placeholder="Имя" class="form__input" required>
+							<input type="email" name="e-mail" placeholder="E-mail" class="form__input" required>
+							<input type="text" name="phone" placeholder="Телефон" class="form__input" required>
+							<input type="checkbox" id="agrement" name="confirmation" checked="true" required>
+							<label for="agrement" class="form__agreement">Даю согласие на обработку персональных данных</label>
+							<button class="form__btn" type="submit" onclick="validate()">Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section" id="timer">
+		<div class="container">
+			<div class="row">
+				<div class="timer__left col-12 col-sm-9 col-md-7 col-lg-5">
+					<h2 class="timer__title animated">
+						Однако, скоро всё закончится...
+					</h2>
+					<p class="timer__decription animated">
+						Когда таймер дойдет до нулевой отметки, спринт официально будет завершен
+					</p>
+					<div class="countdown d-flex jusify-content-center animated">
+						<div class="time-section">
+							<span class="count d-flex jusify-content-center align-items-center" id="days"></span>
+							<span class="units"> Дней </span>
+						</div>
+						<div class="time-section">
+							<span class="count d-flex jusify-content-center align-items-center" id="hours"></span>
+							<span class="units"> Часов </span>
+						</div>
+						<div class="time-section">
+							<span class="count d-flex jusify-content-center align-items-center" id="minutes"></span>
+							<span class="units"> Минут </span>
+						</div>
+						<div class="time-section">
+							<span class="count d-flex jusify-content-center align-items-center" id="seconds"></span>
+							<span class="units"> Секунд </span>
+						</div>
+					</div>
+				</div>
+				<div class="bubble d-none d-md-block col-md-5 col-lg-7 animated">
+					<div class="circle ml-xlg-auto">
+						<a href="#header" class="circle__btn-1" id="circle__btn-1">
+							Подняться вверх
+						</a>
+						<a href="#header" class="circle__btn-2"  id="circle__btn-2">
+							Подняться вверх
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section" id="paralax" data-type="background" data-speed="5">
+		<h2 class="paralax-title paralax-elem animated">
+			Сила и магия параллакса
+		</h2>
+		<a href="#registration-form" class="offer__btn paralax-btn paralax-elem animated">
+			Узнать больше
+		</a>
+	</section>
+	<section class="section" id="sprint3" style="height: 200px"><p style="width: 300px;">
+
+	</section>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/parallax-bg.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/parallax-mouse.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/form-validation.js"></script>	
+</body>
+</html>

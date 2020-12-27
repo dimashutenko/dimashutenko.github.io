@@ -1,0 +1,6 @@
+C:\Dima\Programing\c#\2019\lab - 13\lab-13\lab-13\bin\Debug\lab-13.exe
+C:\Dima\Programing\c#\2019\lab - 13\lab-13\lab-13\bin\Debug\lab-13.pdb
+C:\Dima\Programing\c#\2019\lab - 13\lab-13\lab-13\obj\x86\Debug\lab-13.exe
+C:\Dima\Programing\c#\2019\lab - 13\lab-13\lab-13\obj\x86\Debug\lab-13.pdb
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-get-set\lab-13\obj\x86\Debug\lab-13.exe
+C:\Dima\Programing\c#\2019\lab - 13\lab-13-get-set\lab-13\obj\x86\Debug\lab-13.pdb

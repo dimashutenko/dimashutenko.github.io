@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>
+                REG
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body bgcolor = #DCDCDC>
+        <h3>
+            Register
+        </h3>
+        <h5>
+            Personal details
+        </h5>
+        <form name="reg" method="post" action="obrabotchik.php">
+            <h6>
+                Given Name(s)/Forename(s)
+                &nbsp;&nbsp;&nbsp;
+                <input type="text" name="NAME" value="Oleg" required>
+                *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Family Name/ Surname
+                &nbsp;&nbsp;&nbsp;
+            <input type="text" name="SURname" value="Ivanov" required>
+                *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
+                Date of birth
+                &nbsp;&nbsp;&nbsp;
+            <input type= "date" name="BIRTHDAY" value="1990-12-01">
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                Gender
+                <select name="GENDER" size="1" required>
+                    <option value="male" >
+                        Male
+                    </option>
+                    <option value="female">
+                        Female
+                    </option>
+                </select>
+                *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp;
+            Country of Nationality
+            <select name="Nationality" size = "1" required>
+                <option value="Russia" >
+                        Russia
+                </option>
+                <option value="Ukraine" selected >
+                        Ukraine
+                </option>
+                <option value="Elsewhere" >
+                        Elsewhere
+                </option>
+            </select>
+                *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Help language
+                <select name="Language" size = "1" required>
+                <option value="Russian" >
+                        Russian
+                </option>
+                <option value="Ukrainian" selected>
+                        Ukrainian
+                </option>
+                <option value="English" >
+                        English
+                </option>
+            </select>
+            *
+            </h6>
+            <h5>
+                Contact Deyails
+            </h5>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
+                E-mail
+            <input type="email" name="E-MAIL" value="Kazinaka@i.ua" required>
+            *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Confirm E-mail
+            <input type="email" name="E-MAIL" required>
+            *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
+            Primary Phone Number
+            <input type="tel" name="TEL" required>
+            *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Secondary Phone Number
+            <input type="tel" name="TEL2" >
+            </h6>
+            <h5>
+                Login Password
+            </h5>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Password
+                <input type="password" name="PASSword" required>
+            *
+            </h6>
+            <h6>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Confirm Password
+                <input type="password" name="PASSword2" required>
+            *
+            </h6>
+            <h6>
+                <input type="checkbox" name="TERMS and CONDITIONS acceptance" checked>
+            I agree to the 
+                <p2>
+                    Terms & Conditions
+                </p2>
+            </h6>
+            <input type="submit" value="Register" name="REG">
+        </form>
+        </body>
+</html>

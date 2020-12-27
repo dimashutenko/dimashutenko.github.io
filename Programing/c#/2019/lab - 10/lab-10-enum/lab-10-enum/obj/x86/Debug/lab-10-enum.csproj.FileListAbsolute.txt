@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 10\lab-10-enum\lab-10-enum\bin\Debug\lab-10-enum.exe
+C:\Dima\Programing\c#\2019\lab - 10\lab-10-enum\lab-10-enum\bin\Debug\lab-10-enum.pdb
+C:\Dima\Programing\c#\2019\lab - 10\lab-10-enum\lab-10-enum\obj\x86\Debug\lab-10-enum.exe
+C:\Dima\Programing\c#\2019\lab - 10\lab-10-enum\lab-10-enum\obj\x86\Debug\lab-10-enum.pdb

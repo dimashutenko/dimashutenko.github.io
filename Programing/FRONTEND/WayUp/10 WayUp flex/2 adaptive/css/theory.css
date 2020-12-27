@@ -1,0 +1,66 @@
+.block {
+	background: #366bd0;
+	width: 1000px;
+	height: 600px;
+	margin: 60px auto;
+	padding: 20px;
+}
+
+.flex-container{
+	display: flex;
+	display: -webkit-flex; /*вендерный префикс для поодерживания во всех браузерах*/
+/*	flex-direction: row; ///row by default also column for horisontal align////
+	-webkit-flex-direction: row;
+	flex-wrap: nowrap;  /* //nowrap by default decreses elements width from its set value to max possible to complete the row*/
+	/*///wrap allows elwments to remain their set width//
+	-webkit-flex-wrap: nowrap;*/
+	flex-flow: row nowrap; /*includes both flex-direction and flex-wrap*/
+	-webkit-flex-flow: row nowrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	/*flex-start by default // horisontal positioning of elements */
+	/*flex-end for horisontal positioning to the right side*/
+	/*center*/
+	/*space-between : space between elements is equal*/
+	/*space-around : space between elements is equal including space between container first and last elements */
+	align-items: stretch; /* vertical stretch // works without element height */
+	/*flex-start -- pulls to top*/
+	/*flex-end -- pulls to blocks bottom*/
+	/*center -- pulls to blocks center*/
+	align-content: stretch; /*use with "wrap" : vertical align considering strings; */
+	/*stetch растягивает строки на всю высоту блока*/
+}
+
+.flex-element{
+	/* order: -2; changes position of element in a row to the left side ranging -2;0;1;2;3..*/
+	/*flex-grow: 2; gives you n opportunity to increase the width of the element (special)*/
+	/*flex-shrink: 0; useless*/
+	flex-basis: 200px; /*for certain element changes width*/
+	-webkit-flex-basis: 200px;
+	align-self: center; /*changes align-items parameter */
+	-webkit-align-self: center;
+}
+
+
+.block__element {
+	background: #fff;
+	width: 10%;
+	height: 100px;
+	position: relative;
+	margin: 6px;
+}
+.block__element span {
+	background: #dee8fb;
+	color: #366bd0;
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+	top: 50%;
+	margin-top: -20px;
+}

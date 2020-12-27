@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 6\lab - 6\lab - 6\bin\Debug\lab - 6.exe
+C:\Dima\Programing\c#\2019\lab - 6\lab - 6\lab - 6\bin\Debug\lab - 6.pdb
+C:\Dima\Programing\c#\2019\lab - 6\lab - 6\lab - 6\obj\x86\Debug\lab - 6.exe
+C:\Dima\Programing\c#\2019\lab - 6\lab - 6\lab - 6\obj\x86\Debug\lab - 6.pdb

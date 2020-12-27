@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/task1.js"></script>
+    <title>Task 1</title>
+</head>
+<body style="text-align: center;">
+    <h3>Quadratic equation</h3>
+    <script>
+    	document.write(a);
+    	document.write("x<sup>2</sup>");
+    	if (b!=0){
+    		if (b>0) {document.write('+');}
+	    	document.write(b.toString());
+	    	document.write("x");
+    	}
+    	if (c!=0){
+    		if (c>0) {document.write('+');}
+	    	document.write(c.toString());
+    	}  
+    	document.write("=0");
+    </script>
+    <h3 style="padding-top: 15px">Discriminant</h3>
+    <script>
+    	document.write(discriminant);
+    </script>
+    <h3 style="padding-top: 15px">Solution</h3>
+    <script>
+    	if(discriminant<0){
+			document.write('No solution')
+		}
+		if(discriminant==0){
+			document.write((-b)/2*a)
+		}
+		if(discriminant>=0){
+			document.write('x1 = '+ (-b+Math.sqrt(discriminant))/2*a);
+			document.write("<br>");
+			document.write('x2 = '+ (-b-Math.sqrt(discriminant))/2*a);
+		}
+    </script>
+</body>
+</html>

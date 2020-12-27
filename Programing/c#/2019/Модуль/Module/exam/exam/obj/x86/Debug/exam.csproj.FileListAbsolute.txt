@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\Модуль\Module\exam\exam\bin\Debug\exam.exe
+C:\Dima\Programing\c#\2019\Модуль\Module\exam\exam\bin\Debug\exam.pdb
+C:\Dima\Programing\c#\2019\Модуль\Module\exam\exam\obj\x86\Debug\exam.exe
+C:\Dima\Programing\c#\2019\Модуль\Module\exam\exam\obj\x86\Debug\exam.pdb
+C:\Dima\Programing\c#\2019\Модуль\Module\exam\exam\obj\x86\Debug\exam.csprojResolveAssemblyReference.cache

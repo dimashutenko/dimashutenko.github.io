@@ -1,0 +1,380 @@
+@media screen and (min-width: 576px) {
+	body{
+		font-size: 11px;
+	}
+	header{
+		height: 400px;
+	}
+	.logo{
+		padding-top: 18px;
+		width: 100%;
+	}
+	.logo img{
+		height: 130%;
+		width: 130%;
+	}
+	header nav{
+		margin: 0 -10px 0 10px;
+	}
+	.menu{
+		padding-top: 20px;
+		max-width: 100%; 
+		margin: 0;
+	}
+	.menu__item{
+		padding: 8px 12px 0 12px;
+	}
+	h4{
+		font-size: 13px;
+	}
+	.menu__item h4:hover{
+		font-size: 15px;
+		margin: -2px 0 0 -6px;
+	}
+	.callback{
+		margin: 0;
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+	.company-name{
+		height: 110px;
+		padding-top: 55px;
+	}
+	h1{
+		font-size: 38px;
+	}
+	.company-description{
+		height: 100px;
+	}
+	h2{
+		font-size: 20px;
+		line-height: 28px;
+		padding: 0 50px;
+		max-width: 100%;
+		margin: 0;
+	}
+	.rectangle-1{
+	    width: 150px;
+	    height: 45px;
+	}
+	.rectangle-2{
+	    border: solid 3px #fff;
+	    border-radius: 3px;
+	    width: 156px;
+	    height: 51px;
+	}
+	.square{
+		border-width: 1.5px;
+	    left: 15px;
+	    top: 9px;
+	    width: 27px;
+	    height: 27px;
+	}
+	.socials i{
+		font-size: 16px;
+	}
+	.facebook a{
+		padding: 4px 8px 3px 6px;
+	}
+	.twitter{
+		left: 62px;
+	}
+	.twitter a{
+		padding: 4px 4px 3px 5px;
+	}
+	.telegram{
+		left: 108px;
+	}
+	.telegram a{
+		padding: 5px 5px 3px 4px;
+	}
+}
+@media screen and (min-width: 768px) {
+	a, input, button, .button:hover{
+		outline: none;
+		text-decoration: none;
+		color: #b8f4e0;
+	}
+	body{
+		font-size: 12px;
+	}
+	header{
+		height: 500px;
+	}
+	.logo{
+		padding-top: 28px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+	}
+	header nav{
+		margin: 0 -10px 0 -30px;
+	}
+	.menu{
+		padding: 20px 0;
+	}
+	.menu__item{
+		padding: 22px 12px 0 12px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	.menu__item h4:hover{
+		font-size: 16px;
+		margin: -2px 0 0 -7px;
+	}
+	.callback{
+		background-color: #1cb883;
+		padding:7px 8px 5px 5px;
+		width: 130px;
+		height: 32px;
+		margin: 34px 0 0 -20px;
+		border-bottom: 3px solid #149d6f;
+	}
+	h5{
+		padding-top: 2px;
+		font-size: 12px;
+	}
+	.callback i{
+		font-size: 15px;
+		margin-right: 6px;
+	}
+	.company-name{
+		height: 125px;
+		padding-top: 60px;
+	}
+	h1{
+		font-size: 43px;
+		text-align: start;
+	}
+	.company-description{
+		height: 110px;
+	}
+	h2{
+		font-size: 22px;
+		line-height: 30px;
+		padding: 0;
+		text-align: start;
+	}
+	.socials .col-12{
+		justify-content: flex-start;
+	}
+	.rectangle-1{
+	    width: 150px;
+	    height: 45px;
+	    left: 18px;
+	}
+	.rectangle-2{
+	    border: solid 3px #fff;
+	    border-radius: 3px;
+	    width: 156px;
+	    height: 51px;
+	}
+	.square{
+	    left: 15px;
+	    top: 9px;
+	    width: 27px;
+	    height: 27px;
+	}
+	.socials i{
+		font-size: 16px;
+	}
+	.facebook a{
+		padding: 4px 8px 3px 6px;
+	}
+	.twitter{
+		left: 62px;
+	}
+	.twitter a{
+		padding: 4px 4px 3px 5px;
+	}
+	.telegram{
+		left: 108px;
+	}
+	.telegram a{
+		padding: 5px 5px 3px 4px;
+	}
+}
+@media screen and (min-width: 992px) {
+	body{
+		font-size: 13px;
+	}
+	header{
+		height: 650px;
+	}
+	.logo{
+		padding-top: 24px;
+	}
+	.logo img{
+		height: 80%;
+		width: 80%;
+	}
+	header nav{
+		margin: 0 -10px 0 -60px;
+	}
+	.menu{
+		padding: 10px 0 2px 0;
+	}
+	.menu__item{
+		padding: 0 12px 20px 12px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	.menu__item h4:hover{
+		font-size: 18px;
+		margin: -2px 0 0 -7px;
+	}
+	.callback{
+		padding:7px 10px 6px 5px;
+		width: 145px;
+		height: 36px;
+		margin: 32px 0 0 0;
+		border-bottom: 4px solid #149d6f;
+	}
+	h5{
+		padding-top: 2px;
+		font-size: 13px;
+	}
+	.callback i{
+		font-size: 16px;
+		margin-right: 7px;
+	}
+	.company-name{
+		height: 150px;
+		padding-top: 70px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	.company-description{
+		height: 130px;
+	}
+	h2{
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.rectangle-1{
+	    width: 159px;
+	    height: 49px;
+	}
+	.rectangle-2{
+	    border: solid 3px #fff;
+	    border-radius: 3px;
+	    width: 165px;
+	    height: 55px;
+	}
+	.square{
+	    left: 17px;
+	    top: 9px;
+	    width: 29px;
+	    height: 29px;
+	}
+	.socials i{
+		font-size: 16px;
+	}
+	.facebook a{
+		padding: 4.5px 7px 3px 8px;
+	}
+	.twitter{
+		left: 65px;
+	}
+	.twitter a{
+		padding: 4.5px 3px 3px 6px;
+	}
+	.telegram{
+		left: 113px;
+	}
+	.telegram a{
+		padding: 5px 5.5px 3px 5px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	body{
+		font-size: 14px;
+	}
+	header{
+		height: 720px;
+	}
+	.logo{
+		padding-top: 22px;
+	}
+	header nav{
+		margin: 0 0 0 -30px;
+	}
+	.menu__item{
+		padding: 0 12px 10px 12px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.menu__item h4:hover{
+		font-size: 19px;
+		margin: -2px 0 0 -7px;
+	}
+	.callback{
+		padding:8px 15px 7px 10px;
+		width: 160px;
+		height: 38px;
+		margin: 36px 0 0 10px;
+		border-bottom: 4px solid #149d6f;
+	}
+	h5{
+		padding-top: 3px;
+		font-size: 14px;
+	}
+	.callback i{
+		font-size: 17px;
+		margin-right: 8px;
+	}
+	.company-name{
+		height: 170px;
+		padding-top: 85px;
+	}
+	h1{
+		font-size: 56px;
+	}
+	.company-description{
+		height: 135px;
+	}
+	h2{
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.rectangle-1{
+	    width: 164px;
+	    height: 50px;
+	}
+	.rectangle-2{
+	    border: solid 3px #fff;
+	    border-radius: 3px;
+	    width: 170px;
+	    height: 56px;
+	}
+	.square{
+	    left: 18px;
+	    top: 10px;
+	    width: 30px;
+	    height: 30px;
+	}
+	.socials i{
+		font-size: 16.5px;
+	}
+	.facebook a{
+		padding: 4.5px 7px 1px 8px;
+	}
+	.twitter{
+		left: 66px;
+	}
+	.twitter a{
+		padding: 4.5px 3px 2px 6px;
+	}
+	.telegram{
+		left: 115px;
+	}
+	.telegram a{
+		padding: 5px 5.5px 2px 5px;
+	}
+}

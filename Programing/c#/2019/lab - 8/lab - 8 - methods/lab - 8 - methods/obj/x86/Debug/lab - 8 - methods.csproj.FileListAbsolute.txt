@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab - 8\lab - 8 - methods\lab - 8 - methods\bin\Debug\lab - 8 - methods.exe
+C:\Dima\Programing\c#\2019\lab - 8\lab - 8 - methods\lab - 8 - methods\bin\Debug\lab - 8 - methods.pdb
+C:\Dima\Programing\c#\2019\lab - 8\lab - 8 - methods\lab - 8 - methods\obj\x86\Debug\lab - 8 - methods.exe
+C:\Dima\Programing\c#\2019\lab - 8\lab - 8 - methods\lab - 8 - methods\obj\x86\Debug\lab - 8 - methods.pdb
+C:\Dima\Programing\c#\2019\lab - 8\lab - 8 - methods\lab - 8 - methods\obj\x86\Debug\lab - 8 - methods.csprojResolveAssemblyReference.cache

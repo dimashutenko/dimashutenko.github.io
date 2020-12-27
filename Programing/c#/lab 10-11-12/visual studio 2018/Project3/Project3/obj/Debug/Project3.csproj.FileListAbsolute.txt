@@ -1,0 +1,9 @@
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.csprojAssemblyReference.cache
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
+C:\Users\ДОМ\source\repos\Project3\Project3\bin\Debug\Project3.exe.config
+C:\Users\ДОМ\source\repos\Project3\Project3\bin\Debug\Project3.exe
+C:\Users\ДОМ\source\repos\Project3\Project3\bin\Debug\Project3.pdb
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.Form1.resources
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.csproj.GenerateResource.cache
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.exe
+C:\Users\ДОМ\source\repos\Project3\Project3\obj\Debug\Project3.pdb

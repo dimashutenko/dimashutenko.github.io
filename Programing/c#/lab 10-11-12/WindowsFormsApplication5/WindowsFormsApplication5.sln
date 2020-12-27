@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication5", "WindowsFormsApplication5\WindowsFormsApplication5.csproj", "{EFF7DFDE-DE13-4964-8B1D-A266B9C5A0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form1.Designer.cs", "Form1.Designer.cs\Form1.Designer.cs.csproj", "{2FA7CED6-2F47-4B1F-A3EC-BEA48E17DAC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF7DFDE-DE13-4964-8B1D-A266B9C5A0BB}.Debug|x86.ActiveCfg = Debug|x86
+		{EFF7DFDE-DE13-4964-8B1D-A266B9C5A0BB}.Debug|x86.Build.0 = Debug|x86
+		{EFF7DFDE-DE13-4964-8B1D-A266B9C5A0BB}.Release|x86.ActiveCfg = Release|x86
+		{EFF7DFDE-DE13-4964-8B1D-A266B9C5A0BB}.Release|x86.Build.0 = Release|x86
+		{2FA7CED6-2F47-4B1F-A3EC-BEA48E17DAC8}.Debug|x86.ActiveCfg = Debug|x86
+		{2FA7CED6-2F47-4B1F-A3EC-BEA48E17DAC8}.Debug|x86.Build.0 = Debug|x86
+		{2FA7CED6-2F47-4B1F-A3EC-BEA48E17DAC8}.Release|x86.ActiveCfg = Release|x86
+		{2FA7CED6-2F47-4B1F-A3EC-BEA48E17DAC8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

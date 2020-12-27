@@ -1,0 +1,7 @@
+C:\Users\ДОМ\source\repos\Project6\Project6\bin\Debug\Project6.exe.config
+C:\Users\ДОМ\source\repos\Project6\Project6\bin\Debug\Project6.exe
+C:\Users\ДОМ\source\repos\Project6\Project6\bin\Debug\Project6.pdb
+C:\Users\ДОМ\source\repos\Project6\Project6\obj\Debug\Project6.csprojAssemblyReference.cache
+C:\Users\ДОМ\source\repos\Project6\Project6\obj\Debug\Project6.csproj.CoreCompileInputs.cache
+C:\Users\ДОМ\source\repos\Project6\Project6\obj\Debug\Project6.exe
+C:\Users\ДОМ\source\repos\Project6\Project6\obj\Debug\Project6.pdb

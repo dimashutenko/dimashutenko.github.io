@@ -1,0 +1,185 @@
+body{
+	background: #fffdd0;
+}
+.row{
+	margin: 10px 0;
+}
+.element{
+	margin: 30px 20px;
+	width: 10px;
+	height: 50px;
+}
+.element1{
+	animation: myframes1 2s ease-in-out 0s infinite alternate;
+}
+@keyframes myframes1{
+	0%{/*"from" can also be used */
+		background: aqua;
+		width: 10px;
+		height: 50px;
+	}
+	100%{/*"to" can also be used */
+		background: blue;
+		height: 150px;
+	}
+}
+.element3{
+	transform: rotate(180deg);
+	animation: myframes3 2s ease-in-out 0s infinite alternate;
+}
+@keyframes myframes3{
+	0%{/*"from" can also be used */
+		background: blue;
+		height: 150px;
+	}
+	100%{/*"to" can also be used */
+		background: aqua;
+		height: 50px;
+	}
+}
+.cool-elem{
+	background: aqua;
+	border-radius: 5px;
+	height: 30px;
+	width: 140px;
+	color: #fffdd0;
+	visibility: hidden;
+	animation: coolframes 2s cubic-bezier(0.31,-0.64, 0.95, 2.14) 2s 1 forwards;
+}
+@keyframes coolframes{
+	0%{
+		visibility: hidden;
+		opacity: 0.3;
+		height: 30px;
+		width: 140px;
+	}
+	100%{
+		visibility: visible;
+		opacity: 1;
+		height: 40px;
+		width: 350px;
+	}
+}
+.pause-elem{
+	background: blue;
+	border-radius: 5px;
+	height: 30px;
+	width: 240px;
+	margin-left: 50px;
+	color: #fffdd0;
+	visibility: hidden;
+	cursor: pointer;
+	animation: pauseframes 1.5s ease-in-out 5s infinite alternate;
+}
+@keyframes pauseframes{
+	0%{
+		visibility: hidden;
+		opacity: 0.4;
+		height: 30px;
+		width: 220px;
+		margin-left: 50px;
+	}
+	100%{
+		visibility: visible;
+		opacity: 1;
+		height: 40px;
+		width: 350px;
+		margin-left: 0;
+	}
+}
+.element2{
+	width: 60px;
+	height: 20px;
+	margin: 90px 0 0 30px;
+	cursor: pointer;
+	color: #fffdd0;
+	animation: myframes2 2s ease-in-out 8s 1 forwards;
+}
+@keyframes myframes2{
+	0%{
+		background: #fffff3e0;
+		width: 60px;
+		height: 20px;
+		margin: 90px 0 0 30px;
+	}
+	100%{
+		background: #f5761a;
+		width: 170px;
+		height: 50px;
+		margin: 75px 0 0 0;
+	}
+}
+.element4{
+	background: #f5761a;
+	color: #fffff3e0;
+	animation: myframes4 2s ease-in-out 0s 1 forwards paused;
+}
+@keyframes myframes4{
+	0%{
+		opacity: 0;
+		background: #fffff3e0;
+		width: 60px;
+		height: 30px;
+		margin-top: 90px;
+	}
+	100%{
+		opacity: 1;
+		width: 300px;
+		height: 60px;
+		margin: 70px 0 0 -50px;
+	}
+}
+.interaction-elem{
+	opacity: 0;
+	background: #f5761a;
+	width: 170px;
+	height: 20px;
+	cursor: pointer;
+	animation: interaction-frames 2s ease-in-out 1s 1 forwards paused;
+}
+@keyframes interaction-frames{
+	from{
+		opacity: 0;
+		background: #fffff3e0;
+		width: 170px;
+		height: 30px;
+	}
+	to{
+		opacity: 1;
+		width: 300px;
+		height: 50px;
+	}
+}
+.interaction-elem a{
+	text-decoration: none;
+	color: #fffff3e0;
+}
+.bigger{
+	animation: enlargment 2s ease-in-out 0s infinite alternate; 
+}
+@keyframes enlargment{
+	0%{
+		font-size: 20px;
+	}
+	50%{
+		font-size: 24px;
+	}
+	100%{
+		font-size: 20px;
+	}
+}
+.disappear{
+	visibility: hidden;
+}
+.running{
+	animation-play-state: running;
+}
+.paused{
+	animation-play-state: paused;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background: #46f0f0;
+	margin: 5px;
+}

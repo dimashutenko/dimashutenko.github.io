@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab - 7\lab - 7 files\lab - 7 files\bin\Debug\lab - 7 files.exe
+C:\Dima\Programing\c#\2019\lab - 7\lab - 7 files\lab - 7 files\bin\Debug\lab - 7 files.pdb
+C:\Dima\Programing\c#\2019\lab - 7\lab - 7 files\lab - 7 files\obj\x86\Debug\lab - 7 files.exe
+C:\Dima\Programing\c#\2019\lab - 7\lab - 7 files\lab - 7 files\obj\x86\Debug\lab - 7 files.pdb
+C:\Dima\Programing\c#\2019\lab - 7\lab - 7 files\lab - 7 files\obj\x86\Debug\lab - 7 files.csprojResolveAssemblyReference.cache

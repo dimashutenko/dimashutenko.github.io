@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\Модуль\Module\Module\bin\Debug\Module.exe
+C:\Dima\Programing\c#\2019\Модуль\Module\Module\bin\Debug\Module.pdb
+C:\Dima\Programing\c#\2019\Модуль\Module\Module\obj\x86\Debug\Module.exe
+C:\Dima\Programing\c#\2019\Модуль\Module\Module\obj\x86\Debug\Module.pdb

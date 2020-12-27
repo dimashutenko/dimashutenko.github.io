@@ -1,0 +1,54 @@
+body{
+    background-image: url(blurred-bg-14.jpg);
+}
+.block1{
+    float: left;
+    margin: 30px;
+/**    border: dashed dodgerblue 2px; **/
+    width: 28%;
+}
+.block2{
+    float: left;
+    margin: 30px;
+/**    border: dashed darkblue 2px; **/
+    width: 28%;
+}
+.block3{
+    float: left;
+    margin: 30px;
+/**    border: dashed blue 2px; **/
+    width: 28%;
+}
+.image{
+    padding: 15%;
+}
+.Title{
+    text-indent: 250px;
+}
+h0{
+    font-size:  38px;
+    font-weight: bold;
+    font-style: italic;
+    color:slateblue;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font: 28px, italic;
+    color:darkviolet;
+}
+h2{
+    text-indent: 50px;
+    padding: 10px;
+    font-size:18px;
+    color:blueviolet;
+}
+h3{
+    padding: 10px;
+    font-size:22px;
+}
+h4{
+    text-indent: 50px;
+    padding: 10px;
+    font-size:20px;
+}

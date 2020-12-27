@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab-16\lab-16-abstract classes\lab-16-abstract classes\bin\Debug\lab-16-abstract classes.exe
+C:\Dima\Programing\c#\2019\lab-16\lab-16-abstract classes\lab-16-abstract classes\bin\Debug\lab-16-abstract classes.pdb
+C:\Dima\Programing\c#\2019\lab-16\lab-16-abstract classes\lab-16-abstract classes\obj\x86\Debug\lab-16-abstract classes.exe
+C:\Dima\Programing\c#\2019\lab-16\lab-16-abstract classes\lab-16-abstract classes\obj\x86\Debug\lab-16-abstract classes.pdb

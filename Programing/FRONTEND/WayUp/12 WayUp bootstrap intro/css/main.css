@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 0;
+}

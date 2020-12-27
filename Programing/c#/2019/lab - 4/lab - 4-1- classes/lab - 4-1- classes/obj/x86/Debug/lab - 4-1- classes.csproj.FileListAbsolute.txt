@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\lab - 4\lab - 4-1- classes\lab - 4-1- classes\bin\Debug\lab - 4-1- classes.exe
+C:\Dima\Programing\c#\2019\lab - 4\lab - 4-1- classes\lab - 4-1- classes\bin\Debug\lab - 4-1- classes.pdb
+C:\Dima\Programing\c#\2019\lab - 4\lab - 4-1- classes\lab - 4-1- classes\obj\x86\Debug\lab - 4-1- classes.exe
+C:\Dima\Programing\c#\2019\lab - 4\lab - 4-1- classes\lab - 4-1- classes\obj\x86\Debug\lab - 4-1- classes.pdb

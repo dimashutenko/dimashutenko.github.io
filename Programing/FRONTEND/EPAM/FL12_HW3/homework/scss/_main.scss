@@ -1,0 +1,11 @@
+// Write your styles here
+body{
+	background: $body;
+	margin: 0;
+	header{
+		background-image: $header;
+		background-size: cover;
+		height: 660px;
+		border-bottom-right-radius: 500px 200px;
+	}
+}

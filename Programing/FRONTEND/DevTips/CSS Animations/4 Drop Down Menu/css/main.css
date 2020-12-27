@@ -1,0 +1,249 @@
+body{
+	background: #f9f9f9;
+}
+nav{
+	background: #ececec;
+	margin-top: 50px;
+	border-radius: 5px;
+	height: 55px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	-webkit-display: inline-block;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+nav ul li{
+	float: left;
+	padding: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+	width: 16.66666666666667%;
+	height: 55px;
+	position: relative;
+}
+ul li:hover {
+	background: #dbdbdb;
+}
+ul li:first-child:hover{
+	border-radius: 5px 5px 0 0;
+}
+ul li:last-child:hover{
+	border-radius: 5px 5px 0 0;
+}
+ul li:hover ul.drop-menu li{
+	background: #dbdbdb;
+	display: block;
+	border-radius: 0;
+}
+ul.drop-menu{
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	padding: 0;
+	height: 0;
+}
+ul.drop-menu li{
+	display: none;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+}
+ul li:hover ul.drop-menu li:last-child{
+	border-radius: 0 0 5px 5px;
+}
+/**/
+ul li:hover ul.drop-menu-1 li{
+	opacity: 0;
+}
+ul li:hover ul.drop-menu-1 li:nth-child(1){
+	animation: keyframes1 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-1 li:nth-child(2){
+	animation: keyframes1 300ms ease-in-out 200ms forwards;
+}
+ul li:hover ul.drop-menu-1 li:nth-child(3){
+	animation: keyframes1 300ms ease-in-out 400ms forwards;
+}
+ul li:hover ul.drop-menu-1 li:nth-child(4){
+	animation: keyframes1 300ms ease-in-out 600ms forwards;
+}
+ul li:hover ul.drop-menu-1 li:nth-child(5){
+	animation: keyframes1 300ms ease-in-out 800ms forwards;
+}
+@keyframes keyframes1 {
+	from{
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+ul li:hover ul.drop-menu-2 {
+	perspective: 1000px;
+}
+ul li:hover ul.drop-menu-2 li{
+	opacity: 0;
+}
+ul li:hover ul.drop-menu-2 li:nth-child(1){
+	animation: keyframes2 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-2 li:nth-child(2){
+	animation: keyframes2 600ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-2 li:nth-child(3){
+	animation: keyframes2 900ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-2 li:nth-child(4){
+	animation: keyframes2 1200ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-2 li:nth-child(5){
+	animation: keyframes2 1500ms ease-in-out 0s forwards;
+}
+@keyframes keyframes2 {
+	from{
+		opacity: 0;
+		transform: rotateY(-90deg) translateY(30px);
+	}
+	to{
+		opacity: 1;
+		transform: rotateY(0deg) translateY(0px);
+	}
+}
+ul li:hover ul.drop-menu-3 {
+	perspective: 1000px;
+}
+ul li:hover ul.drop-menu-3 li{
+	opacity: 0;
+}
+ul li:hover ul.drop-menu-3 li:nth-child(1){
+	animation: keyframes3 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-3 li:nth-child(2){
+	animation: keyframes3 300ms ease-in-out 150ms forwards;
+}
+ul li:hover ul.drop-menu-3 li:nth-child(3){
+	animation: keyframes3 300ms ease-in-out 300ms forwards;
+}
+ul li:hover ul.drop-menu-3 li:nth-child(4){
+	animation: keyframes3 300ms ease-in-out 450ms forwards;
+}
+ul li:hover ul.drop-menu-3 li:nth-child(5){
+	animation: keyframes3 300ms ease-in-out 600ms forwards;
+}
+@keyframes keyframes3 {
+	0%{	
+		opacity: 0;
+		transform: rotateY(-90deg) translateY(30px);
+	}
+	30%{  
+		opacity: 0.4;
+	 }
+	100%{
+		opacity: 1;
+		transform: rotateY(0deg) translateY(0px);
+	}
+}
+ul li:hover ul.drop-menu-4 li{
+	opacity: 0;
+	transform-origin: top center;
+}
+ul li:hover ul.drop-menu-4 li:nth-child(1){
+	animation: keyframes4 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-4 li:nth-child(2){
+	animation: keyframes4 300ms ease-in-out 200ms forwards;
+}
+ul li:hover ul.drop-menu-4 li:nth-child(3){
+	animation: keyframes4 300ms ease-in-out 400ms forwards;
+}
+ul li:hover ul.drop-menu-4 li:nth-child(4){
+	animation: keyframes4 300ms ease-in-out 600ms forwards;
+}
+ul li:hover ul.drop-menu-4 li:nth-child(5){
+	animation: keyframes4 300ms ease-in-out 800ms forwards;
+}
+@keyframes keyframes4 {
+	0%{
+		opacity: 0;
+		transform: rotateX(-90deg);
+	}
+	60%{
+		transform: rotateX(50deg); 
+	}
+	100%{
+		opacity: 1;
+		transform:rotateY(0deg) translateY(0px);
+	}
+}
+ul li:hover ul.drop-menu-5 li{
+	perspective: 1000px;
+	opacity: 0;
+}
+ul li:hover ul.drop-menu-5 li:nth-child(1){
+	animation: keyframes5 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-5 li:nth-child(2){
+	animation: keyframes5 300ms ease-in-out 200ms forwards;
+}
+ul li:hover ul.drop-menu-5 li:nth-child(3){
+	animation: keyframes5 300ms ease-in-out 400ms forwards;
+}
+ul li:hover ul.drop-menu-5 li:nth-child(4){
+	animation: keyframes5 300ms ease-in-out 600ms forwards;
+}
+ul li:hover ul.drop-menu-5 li:nth-child(5){
+	animation: keyframes5 300ms ease-in-out 800ms forwards;
+}
+@keyframes keyframes5 {
+	0%{
+		opacity: 0;
+		transform: scale(0.1) translateY(-80px);
+	}
+	70%{
+		opacity: 0.5;
+		transform: scale(1.2) translateY(10px);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1) translateY(0px);
+	}
+}
+ul li:hover ul.drop-menu-6 li{
+	perspective: 1000px;
+	opacity: 0;
+	transform-origin: top left;
+}
+ul li:hover ul.drop-menu-6 li:nth-child(1){
+	animation: keyframes6 300ms ease-in-out 0s forwards;
+}
+ul li:hover ul.drop-menu-6 li:nth-child(2){
+	animation: keyframes6 300ms ease-in-out 200ms forwards;
+}
+ul li:hover ul.drop-menu-6 li:nth-child(3){
+	animation: keyframes6 300ms ease-in-out 400ms forwards;
+}
+ul li:hover ul.drop-menu-6 li:nth-child(4){
+	animation: keyframes6 300ms ease-in-out 600ms forwards;
+}
+ul li:hover ul.drop-menu-6 li:nth-child(5){
+	animation: keyframes6 300ms ease-in-out 800ms forwards;
+}
+@keyframes keyframes6 {
+	0%{
+		opacity: 0;
+		transform: rotate(30deg) translateX(-40px) /*translateY(10px)*/;
+	}
+	100%{
+		opacity: 1;
+		transform: rotate(0deg) translateX(0px) /*translateY(0px)*/;
+	}
+}

@@ -1,0 +1,4 @@
+C:\Dima\Programing\c#\2019\Модуль\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Dima\Programing\c#\2019\Модуль\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Dima\Programing\c#\2019\Модуль\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.exe
+C:\Dima\Programing\c#\2019\Модуль\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.pdb

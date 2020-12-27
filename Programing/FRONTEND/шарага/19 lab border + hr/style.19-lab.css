@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style:solid ;
+    
+    border-bottom-color: green;
+    border-bottom-style: dashed;
+    border-bottom-width: 6px;
+    
+    border-left-color: blue;
+    border-left-style: inset;
+    border-left-width: 15px;
+    
+    border-right-color: gold;
+    border-right-style: groove;
+    border-right-width: 8px;
+    
+    margin: 20px;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style:solid ;
+    
+    border-bottom-color: green;
+    border-bottom-style: dashed;
+    border-bottom-width: 6px;
+    
+    border-left-color: blue;
+    border-left-style: inset;
+    border-left-width: 15px;
+    
+    border-right-color: gold;
+    border-right-style: groove;
+    border-right-width: 8px;
+    /**
+    border: 15px double limegreen;
+    border-style: double;
+    border-color: limegreen;
+    border-width: 15px;
+    **/
+    margin: 40px;
+    padding: 10px;
+}
+h3{
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style:solid ;
+    
+    border-bottom-color: green;
+    border-bottom-style: dashed;
+    border-bottom-width: 6px;
+    
+    border-left-color: blue;
+    border-left-style: inset;
+    border-left-width: 15px;
+    
+    border-right-color: gold;
+    border-right-style: groove;
+    border-right-width: 8px;
+    margin: 60px;
+    padding: 60px;
+}
+h4{
+    border: 2px grey dotted;
+    margin: 80px;
+    padding: 80px;
+}
+.line1{
+    border-top: 2px solid red;
+}

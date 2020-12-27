@@ -1,0 +1,41 @@
+body{ margin: 0; background: url(фон.png) PowderBlue}
+.main-menu{text-align:center; }
+.main-menu ul{list-style: none; margin:0; padding-left:0; margin-top:25px; background-image:url(11.jpg); height: 70px;}
+.main-menu a {text-decoration: none;  color:lightsalmon; font-weight:bold; font-size:27px; padding:0px 15px; font-family:arial; line-height:70px; display: block;
+ border-right: 1px solid Maroon; border-left: 1px solid Maroon; background: rgba(255, 250, 250, .5);
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/ -o-transition: all 0.3s 0.01s ease; -webkit-transition: all 0.3s 0.01s ease;}
+.main-menu a:hover { background:#666699;}
+.main-menu li{display: inline-block;}
+
+menu ul{list-style: none; margin: 0; padding: 0;}
+menu a{text-decoration: none; outline: none; display: block; transition: .4s ease-in-out;}
+.topmenu{text-align: center; padding: 10px 0;}
+.topmenu > li{display: inline-block; position: relative; background:rgba(240, 248, 255, .5)}
+.topmenu > li:after{ content:""; position:absolute; right:0; width:1px; height:12px; background:LightGray; top:16px; box-shadow:4px -2px 0 #d2d2d2;}
+.topmenu > li:last-child:after {background:none; box-shadow:none;}
+.topmenu > li > a {padding: 10px 10px; color:darkorange;text-transform:uppercase;font-weight: bold; font-size:18px; letter-spacing: 1px;font-family: 'Exo 2',sans-serif;}
+.topmenu li a:hover {color:#c0a97a;}
+.submenu {position:absolute;left:50%; top:100%; width: 210px;margin-left: -105px;background: #fafafa;border: 1px solid #ededed;z-index: 5;visibility: hidden;
+  opacity:0;transform: scale(.8);transition: .4s ease-in-out;}
+.submenu li a {padding: 10px 0;margin: 0 10px;border-bottom: 1px solid #efefef;font-size: 22px;color: #484848;font-family: 'Kurale', serif;}
+.topmenu > li:hover .submenu {visibility: visible;opacity: 1;}
+h1 {font-family: 'Cormorant Garamond', serif; text-transform:uppercase; font-size:55px; Font-weight:bold; color: darkred; text-align:center; padding-top:15px;
+margin-top:5px;}
+.star{background-image: url(star.jpg); background-repeat: repeat-x; background-size: 18px 17px; height:18px; width:90%; margin-left:5%; margin-top:1%}
+.star1 {background-image: url(star.jpg); background-repeat: repeat-x; background-size: 18px 17px; height:18px; width:90%; margin-left:5%; 
+position:absolute; top:25%;}
+h3 {font-family: 'Open Sans Condensed', sans-serif; cursive; text-transform:uppercase; font-size:30px; Font-weight:bold; color:Crimson; text-indent:15%; line-height:0; margin: 20px}
+.colors {font-family: 'Open Sans Condensed', sans-serif; font-size:20px; color:lightsalmon; font-style:oblique; line-height:30px; text-align:center;}
+.tale {text-indent:5%;font-family: 'Cormorant Garamond', serif;font-size:20px; color:DarkRed; Font-weight:bold; padding:20px; }
+
+.usa{width:80%; margin-left:10%; background: url(usa.jpg); border-radius: 50px; }
+.history{width:80%; margin-left:10%; background: url(history.jpg); border-radius: 50px;}
+.geography{width:80%; margin-left:10%; background: url(geography.jpg); border-radius: 50px; }
+
+.box1{ border: 0.5px purple dotted; border-radius: 40px 10px; width:70%; margin-left:15%; background:rgba(255, 245, 238, .5) }
+
+.zav{margin-right:35%; width:30%}
+.line{margin-left:15%; border-top:2px solid DarkMagenta}
+.form{font-size:20px; color: orange; text-transform: uppercase; font-weight: bold }
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans+Condensed:300');

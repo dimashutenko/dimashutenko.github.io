@@ -1,0 +1,5 @@
+C:\Dima\Programing\c#\2019\lab - 9\lab-9-try-catch\lab-9-try-catch\bin\Debug\lab-9-try-catch.exe
+C:\Dima\Programing\c#\2019\lab - 9\lab-9-try-catch\lab-9-try-catch\bin\Debug\lab-9-try-catch.pdb
+C:\Dima\Programing\c#\2019\lab - 9\lab-9-try-catch\lab-9-try-catch\obj\x86\Debug\lab-9-try-catch.exe
+C:\Dima\Programing\c#\2019\lab - 9\lab-9-try-catch\lab-9-try-catch\obj\x86\Debug\lab-9-try-catch.pdb
+C:\Dima\Programing\c#\2019\lab - 9\lab-9-try-catch\lab-9-try-catch\obj\x86\Debug\lab-9-try-catch.csprojResolveAssemblyReference.cache
