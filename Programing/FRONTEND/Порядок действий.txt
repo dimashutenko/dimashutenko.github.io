@@ -1,2 +1,0 @@
-structure
-шрифты (google fonts/подключить)
