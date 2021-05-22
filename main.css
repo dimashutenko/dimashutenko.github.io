@@ -1,0 +1,46 @@
+body {
+ 	margin: 0;
+ 	padding: 0;
+ 	background: rgb(9,7,37);
+background: linear-gradient(155deg, rgba(119,180,70,1) 40%, rgba(240,54,51,1) 100%);
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	position: relative;
+	height: 120vh;
+}
+
+p {
+ 	margin: 0 auto;
+}
+
+h1,h3,h6 {
+ 	text-align: center;
+}
+header{
+	margin-top: 5vh;
+}
+h3{
+
+}
+table, th, td {
+  text-align: left;
+}
+#developer{
+	position: absolute;
+	top: 92%;
+	left: 0;
+	width: 100%;
+	color: rgba(9,7,37,1);
+	padding: 10px;
+}
+#developer a{
+	color: rgba(9,7,37,1);
+	font-style: italic;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+
+#developer a:hover{
+	color: #6cacc5;
+}
