@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Checker</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/80a7e9f90a.js"></script>
+	<meta name="description" content="...">
+	<meta name="keywords" content="...">
+	<meta property="og:title" content="Email checker by Dima Shutenko">
+	<meta property="og:description" content="Phishing email address checker">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="img/image.jpg">
+	<meta property="og:site_name" content="Phishing email address checker">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="icon" href="img/d.png" type="image/x-icon">
+	<!-- <script data-main="scripts/app" src="js/require.js"></script> -->
+</head>
+<body>
+	<div id="myModal_fraud" class="modal fade" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h6 class="modal-title">Повідомлення</h6>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h4 class="d-flex" style="margin-bottom: 20px">Велика імовірність фішингу</h4>
+					<p>Введена адреса поштової скриньки була створена в безкоштовному сервісі</p>
+				</div>
+				<div class="modal-footer">
+					<a href="https://www.linkedin.com/in/dima-shutenko/" class="ml-auto">Повідомити про помилку</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="myModal_no_fraud" class="modal fade" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h6 class="modal-title">Повідомлення</h6>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h4 class="d-flex" style="margin-bottom: 20px">Фішинг не виявлено</h4>
+					<p>Введена адреса поштової скриньки не була створена в безкоштовному сервісі</p>
+				</div>
+				<div class="modal-footer">
+					<a href="https://www.linkedin.com/in/dima-shutenko/" class="ml-auto">Повідомити про помилку</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<h2 class="mb-5">Перевірка поштової адреси</h2>
+				<div class="">
+					<div class="d-flex mb-3">Атуальний перелік сервісів, що дають можливість безкоштовно створити поштову скриньку доступний за замовчуванням</div>
+
+					<div class="custom-control custom-checkbox d-flex mb-2">
+						<input type="checkbox" class="custom-control-input" id="use_defaults">
+						<label class="custom-control-label" for="use_defaults" checked>Використати базу за замовчуванням</label>
+					</div>
+					<input type="file" id="file-selector">
+
+					<div class="d-flex mb-3 mt-5">Введіть поштову скриньку для перевірки</div>
+					<input type="text" class="form-control" id="input-email" name="user_email" placeholder="email адреса відправника">
+					<button type="submit" class="btn btn-primary mt-5" onclick="check()">Перевірити</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container mt-5">
+		<h6 class="d-flex ml-auto">Copyright <a href="https://www.linkedin.com/in/dima-shutenko/" class="d-flex ml-2"> Dima Shutenko</a></h6>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script>
+       
+	</script>
+</body>
+</html>

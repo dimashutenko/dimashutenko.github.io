@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+a, input, button, .button{
+	outline: none;
+}
+a, input, button, .button:focus{
+	outline: none;
+}
+a, input, button, .button:active{
+	outline: none;
+}
+a, input, button, .button:hover{
+	outline: none;
+	text-decoration: none;
+}
+.color-1{
+	color: #3664D8;
+}
+.color-2{
+	color: #212353;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #f0f2f5;
+	position: relative;
+	width: 100%;
+	color: #1c1e21;
+}
+.container{
+	max-width: 970px;
+	margin: 0 auto;
+	display: flex;
+	-webkit-display: flex;
+	padding-top: 5%;
+    justify-content: center;
+}
+
+input{
+	background-color: #e8f0fe!important;
+    width: 100%;
+    font-size: 17px;
+    padding-left: 8px;
+    border-radius: 6px;
+}
+
+#myModal_fraud .modal-content{
+	background: #ffada9;
+}
+
+.center_all_text *{
+	text-align: center;
+}
